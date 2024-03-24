@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="obrazky/logo.svg" sizes="any" type="image/svg+xml" />
+    <link rel="stylesheet" href="master.css" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Tipy na výlet</title>
+</head>
+<body class="flex flex-col min-h-screen">
+
+    <div id="myOverlay" class="overlay fixed top-0 left-0 w-full h-full bg-black opacity-50 z-50 hidden"></div>
+
+    <div id="mySidenav" class="sidenav fixed top-0 right-0 h-full w-72 bg-white text-gray-300 overflow-x-hidden transition-all duration-500 transform translate-x-full z-50">
+        <a href="javascript:void(0)" class="closebtn absolute top-0 right-0 pr-6 pt-6 text-3xl text-beige" onclick="closeNav()">&times;</a>
+        <a href="index.html" class="block text-beige font-medium px-8 pt-16 text-xl">Úvod</a>
+        <a href="tipynavylet.html" class="block text-beige px-8 pt-6 font-medium text-xl">Tipy na výlet</a>
+        <a href="kalendar.html" class="block text-beige px-8 pt-6 font-medium text-xl">Kalendář</a>
+        <a href="fotogalerie.html" class="block text-beige px-8 pt-6 font-medium text-xl">Fotogalerie</a>
+        <a href="#" class="block text-beige px-8 pt-6 font-medium text-xl">Kontakt</a>
+        <a href="mailto:domekulabe@gmail.com" class="block text-beige text-base px-8 py-6 ">domekulabe@gmail.com</a>
+        <a href="tel:+420 737 015 382" class="block text-beige text-base px-8 ">+420 737 015 382</a>
+    </div>
+
+    <header class="flex flex-row flex-nowrap justify-between items-center px-6 py-4">
+      <div class="flex items-center gap-2">
+        <img
+          class="w-5 h-4"
+          src="obrazky/logo.svg"
+          alt="logo_stanovic"
+        />
+        <h1 class="text-xl font-medium">Domek U Labe</h1>
+      </div>
+      <div class="flex flex-row gap-4 justify-center items-center flex-nowrap">
+        <img class="w-5 h-4" src="obrazky/cz_flag.svg" alt="FlagofCZ" />
+        <img class="w-5 h-4" src="obrazky/gb_flag.svg" alt="FlagofUK" />
+        <img class="w-5 h-4 cursor-pointer" src="obrazky/hamburger.svg" alt="menulogo" onclick="toggleNav()"/>
+      </div>
+    </header>
+
+    <main>
+      <section class="relative text-center text-white font-black">
+        <img class="w-full h-1/2" src="obrazky/barak.png" alt="barak Stanovice">
+        <div class="absolute top-1/2 left-1/2 text-2xl transform -translate-x-1/2 -translate-y-1/2 bg-black/40 px-1 py-1">Tipy na výlet</div>
+      </section>
+    </main>
+    <footer class="bg-black h-20 text-white text-center flex items-center justify-center text-xs mt-auto">
+      <div>
+        <div>Stanovice 31, 544 01 Dvůr Králové nad Labem</div>
+        <div>+420 737 015 382, domekulabe@gmail.com</div>
+      </div>
+    </footer>
+    <script src="add.js"></script>
+  </body>
+</html>
