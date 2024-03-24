@@ -9,10 +9,7 @@
     <link rel="stylesheet" href="output.css" />
     <title>Ubytování &#124; Domek u Labe</title>
   </head>
-  <body
-    class="flex flex-col font-medium bg-center bg-cover font-Raleway lining-nums bg-domek"
-  >
-    <!-- Obsah navbaru-->
+  <body class="flex flex-col font-medium font-Raleway lining-nums">
     <div
       id="myOverlay"
       class="fixed top-0 left-0 z-50 hidden w-full h-full bg-black opacity-50 overlay"
@@ -76,7 +73,7 @@
     </div>
 
     <!-- Header: Název, Icony-->
-    <header class="z-50 px-6 py-4 bg-white md:px-11 md:py-7 xl:py-11 lg:px-64">
+    <header class="px-6 py-4 md:px-11 md:py-7 xl:py-11 lg:px-64">
       <section
         class="lg:max-w-1440 md:max-w-[746px] max-w-[280px] mr-auto ml-auto flex flex-row items-center justify-between flex-nowrap"
       >
@@ -114,7 +111,12 @@
     </header>
 
     <main>
-      <section class="font-black text-center text-white h-96">
+      <section class="relative font-black text-center text-white">
+        <img
+          class="w-full lg:object-cover"
+          src="obrazky/barak.png"
+          alt="barak Stanovice"
+        />
         <!--https://www.w3schools.com/howto/howto_css_image_responsive.asp-->
         <div
           class="absolute px-1 py-1 text-2xl font-black transform -translate-x-1/2 -translate-y-1/2 md:px-2 md:py-2 lg:px-3 lg:py-3 top-1/2 left-1/2 bg-black/40 md:text-4xl lg:text-6xl"
@@ -125,7 +127,7 @@
 
       <!-- Hlavní text -->
 
-      <section class="pt-4 pb-4 bg-white md:pt-9 lg:pt-14 md:pb-9 lg:pb-14">
+      <section class="pb-4 mt-4 md:mt-9 lg:mt-14 md:mb-9 lg:mb-14">
         <div class="w-auto mx-auto">
           <div
             class="lg:max-w-1440 md:max-w-[746px] max-w-[280px] px-2 ml-auto mr-auto"
@@ -172,7 +174,7 @@
       </section>
     </main>
 
-    <footer class="grid content-center h-20 text-white bg-black py-14">
+    <footer class="grid content-center h-20 mt-auto text-white bg-black">
       <section
         class="flex items-center justify-center ml-auto mr-auto lg:max-w-1440"
       >
@@ -200,6 +202,7 @@
         </div>
       </section>
     </footer>
+
     <script src="add.js"></script>
     <script
       src="https://kit.fontawesome.com/8eaa313f76.js"
