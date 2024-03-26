@@ -20,6 +20,9 @@ module.exports = {
         504: "504px",
         30: "30px",
       },
+      fontSize: {
+        xxs: "0.625rem",
+      },
       fontFamily: {
         Mayek: ["Noto Sans Meetei Mayek", "sans-serif"],
         Proxima: ["proxima-nova", "sans-serif"],

@@ -75,7 +75,7 @@
     <!-- Header: Název, Icony-->
     <header class="px-6 py-4 md:px-11 md:py-7 xl:py-11 lg:px-64">
       <section
-        class="lg:max-w-1440 md:max-w-[746px] max-w-[280px] mr-auto ml-auto flex flex-row items-center justify-between flex-nowrap"
+        class="2xl:max-w-[1550px] xl:max-w-[1240px] lg:max-w-[992px] md:max-w-[746px] max-w-[280px] mr-auto ml-auto flex flex-row items-center justify-between flex-nowrap"
       >
         <div class="flex items-center gap-2">
           <img
@@ -109,34 +109,21 @@
         </div>
       </section>
     </header>
-
+    <img class="w-screen" src="obrazky/barak.png" alt="barak Stanovice" />
     <main>
-      <section class="relative font-black text-center text-white">
-        <img
-          class="w-full lg:object-cover"
-          src="obrazky/barak.png"
-          alt="barak Stanovice"
-        />
-        <!--https://www.w3schools.com/howto/howto_css_image_responsive.asp-->
-        <div
-          class="absolute px-1 py-1 text-2xl font-black transform -translate-x-1/2 -translate-y-1/2 md:px-2 md:py-2 lg:px-3 lg:py-3 top-1/2 left-1/2 bg-black/40 md:text-4xl lg:text-6xl"
-        >
-          Domek U Labe
-        </div>
-      </section>
-
       <!-- Hlavní text -->
-
-      <section class="pb-4 mt-4 md:mt-9 lg:mt-14 md:mb-9 lg:mb-14">
+      <section class="pt-4 pb-4 mt-auto md:pt-9 lg:pt-14 md:pb-9 lg:pb-14">
         <div class="w-auto mx-auto">
           <div
-            class="lg:max-w-1440 md:max-w-[746px] max-w-[280px] px-2 ml-auto mr-auto"
+            class="2xl:max-w-[1550px] xl:max-w-[1240px] lg:max-w-[992px] md:max-w-[746px] max-w-[280px] ml-auto mr-auto"
           >
-            <h1
-              class="pb-2 text-left text-xl font-medium lg:text-[40px] md:text-[28px] md:pb-6 lg:pb-10"
-            >
-              O nás
-            </h1>
+            <div class="pb-2 md:pb-6 lg:pb-10">
+              <h1
+                class="text-left text-xl font-medium lg:text-[40px] md:text-[28px]"
+              >
+                O nás
+              </h1>
+            </div>
             <div class="text-xs lg:text-2xl text-beige">
               <p>
                 Vítáme Vás v Domku U Labe, kde náš příběh začíná snem o
@@ -174,38 +161,49 @@
       </section>
     </main>
 
-    <footer class="grid content-center h-20 mt-auto text-white bg-black">
+    <footer
+      class="relative grid content-center h-20 mt-auto text-white bg-black md:h-28 lg:h-36"
+    >
       <section
-        class="flex items-center justify-center ml-auto mr-auto lg:max-w-1440"
+        class="ml-auto mr-auto justify-center lg:justify-center lg:flex lg:items-center 2xl:max-w-[1550px] xl:max-w-[1240px] lg:max-w-[992px] md:max-w-[746px] max-w-[280px]"
       >
-        <div class="lg:w-[664px] text-base">
-          <a
-            href="https://www.facebook.com/people/Domek-U-Labe/61557038147963/"
-            target="_blank"
-            class="mr-22 fa-brands fa-facebook"
-            style="color: #ffffff"
-          ></a>
-          <!-- Instagram není 16x16 -->
-          <a
-            href="https://www.instagram.com/domek_u_labe"
-            target="_blank"
-            class="fa-brands fa-instagram"
-            style="color: #ffffff"
-          ></a>
+        <div class="text-base">
+          <div
+            class="invisible text-base 2xl:w-[718px] xl:w-[563px] lg:w-[439px] lg:visible"
+          >
+            <a
+              href="https://www.facebook.com/people/Domek-U-Labe/61557038147963/"
+              target="_blank"
+              class="mr-22 fa-brands fa-facebook fa-fw"
+            ></a>
+            <!-- Instagram není 16x16 -->
+            <a
+              href="https://www.instagram.com/domek_u_labe"
+              target="_blank"
+              class="fa-brands fa-instagram"
+            ></a>
+          </div>
         </div>
-        <div class="flex flex-col items-center justify-center">
+        <div
+          class="invisible lg:flex lg:flex-col lg:items-center lg:justify-center lg:visible w-[114px]"
+        >
           <img class="w-5 h-4 text-xs" src="obrazky/whitelogo.svg" alt="" />
           <p>Domek U Labe</p>
         </div>
-        <div class="flex justify-end lg:w-[664px] text-xs">
-          <p>Stanovice 31, 544 01 Dvůr Králové nad Labem</p>
+        <div
+          class="absolute inset-0 flex items-center justify-center lg:justify-end lg:relative 2xl:w-[718px] xl:w-[563px] lg:w-[439px] lg:text-sm lg:font-normal text-xxs"
+        >
+          <div class="absolute visible top-11 md:top-16 lg:invisible lg:top-0">
+            +420 737 015 382, domekulabe@gmail.com
+          </div>
+          <p class="text-center">Stanovice 31, 544 01 Dvůr Králové nad Labem</p>
         </div>
       </section>
     </footer>
 
     <script src="add.js"></script>
     <script
-      src="https://kit.fontawesome.com/8eaa313f76.js"
+      src="https://kit.fontawesome.com/23758139c6.js"
       crossorigin="anonymous"
     ></script>
   </body>
