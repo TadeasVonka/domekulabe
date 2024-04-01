@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         beige: "#9E7E44",
+        gainsboro: "#F1EFF2",
       },
       width: {
         13: "3.25rem",
@@ -22,14 +23,13 @@ module.exports = {
       },
       fontSize: {
         xxs: "0.625rem",
+        xxss: "0.5rem",
       },
       fontFamily: {
-        Mayek: ["Noto Sans Meetei Mayek", "sans-serif"],
-        Proxima: ["proxima-nova", "sans-serif"],
         Raleway: ["Raleway", "sans-serif"],
       },
       backgroundImage: {
-        domek: "url('obrazky/barak.png')",
+        domek: "url('obrazky/barakk.png')",
       },
     },
   },

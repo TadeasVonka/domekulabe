@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://use.typekit.net/sjd6opp.css" />
     <link rel="icon" href="obrazky/logo.svg" sizes="any" type="image/svg+xml" />
     <link rel="stylesheet" href="master.css" />
     <link rel="stylesheet" href="output.css" />
@@ -53,7 +52,9 @@
           >
         </div>
         <div class="px-4 pt-6">
-          <a href="#" class="block text-xl font-medium text-beige">Kontakt</a>
+          <a href="kontakt.html" class="block text-xl font-medium text-beige"
+            >Kontakt</a
+          >
         </div>
         <div class="px-4 py-6">
           <a
@@ -71,27 +72,76 @@
         </div>
       </div>
     </div>
-
     <!-- Header: Název, Icony-->
-    <header class="px-6 py-4 md:px-11 md:py-7 xl:py-11 lg:px-64">
+    <header
+      class="py-4 mx-auto md:py-7 xl:py-11 max-w-[320px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-[1240px] 2xl:max-w-[1550px]"
+    >
       <section
-        class="2xl:max-w-[1550px] xl:max-w-[1240px] lg:max-w-[992px] md:max-w-[746px] max-w-[280px] mr-auto ml-auto flex flex-row items-center justify-between flex-nowrap"
+        class="gap-[58px] md:gap-80 lg:gap-[402px] xl:gap-[148px] flex flex-row items-center justify-between flex-nowrap 2xl:gap-[416px]"
       >
-        <div class="flex items-center gap-2">
-          <img
-            class="w-5 h-4 md:w-9 md:h-7 lg:w-13 lg:h-10"
-            src="obrazky/logo.svg"
-            alt="logo_stanovic"
-          />
-          <h1 class="text-xl font-medium md:text-3xl lg:text-5xl">
-            Domek U Labe
-          </h1>
+        <div class="flex items-center">
+          <div class="pr-2 md:pr-4 lg:mr-5 xl:mr-0 xl:pr-5">
+            <img
+              class="w-5 h-4 md:w-9 md:h-7 lg:w-13 lg:h-10"
+              src="obrazky/logo.svg"
+              alt="logo_stanovic"
+            />
+          </div>
+          <div class="min-w-[142px] md:min-w-[254px] lg:min-w-[338px]">
+            <h1 class="text-xl font-semibold md:text-4xl lg:text-5xl">
+              Domek U Labe
+            </h1>
+          </div>
         </div>
+
         <div
-          class="flex flex-row items-center justify-center gap-4 flex-nowrap"
+          class="flex flex-row items-center justify-center gap-4 lg:gap-0 flex-nowrap"
         >
+          <nav class="hidden md:hidden lg:hidden xl:block 2xl:block">
+            <div class="xl:text-xl xl:text-beige xl:font-semibold">
+              <ul class="xl:flex xl:items-center">
+                <li
+                  class="xl:pr-9 text-balance xl:underline xl:underline-offset-[7px]"
+                >
+                  <a href="index.html"><span>Úvod</span></a>
+                </li>
+                <li class="xl:pr-9 text-nowrap">
+                  <a href="tipynavylet.html" class="relative">
+                    <span
+                      class="inline-block transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-300 before:bg-gradient-to-r from-beige via-beige to-beige hover:before:w-full hover:before:opacity-100"
+                      >Tipy na výlet</span
+                    ></a
+                  >
+                </li>
+                <li class="xl:pr-9">
+                  <a href="kalendar.html" class="relative"
+                    ><span
+                      class="inline-block transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-300 before:bg-gradient-to-r from-beige via-beige to-beige hover:before:w-full hover:before:opacity-100"
+                      >Kalendář</span
+                    ></a
+                  >
+                </li>
+                <li class="xl:pr-9">
+                  <a href="fotogalerie.html" class="relative"
+                    ><span
+                      class="inline-block transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-300 before:bg-gradient-to-r from-beige via-beige to-beige hover:before:w-full hover:before:opacity-100"
+                      >Fotogalerie</span
+                    ></a
+                  >
+                </li>
+                <li class="xl:pr-9">
+                  <a href="kontakt.html" class="relative">
+                    <span
+                      class="inline-block transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-300 before:bg-gradient-to-r from-beige via-beige to-beige hover:before:w-full hover:before:opacity-100"
+                      >Kontakt</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
           <img
-            class="w-5 h-4 md:w-8 md:h-6 lg:w-11 lg:h-8"
+            class="w-5 h-4 md:w-8 md:h-6 lg:w-11 lg:h-8 lg:mr-5"
             src="obrazky/cz_flag.svg"
             alt="FlagofCZ"
           />
@@ -101,7 +151,7 @@
             alt="FlagofUK"
           />
           <img
-            class="w-5 h-4 cursor-pointer md:w-8 md:h-6 lg:w-11 lg:h-8"
+            class="block w-5 h-4 cursor-pointer md:w-8 md:h-6 lg:w-11 lg:h-8 xl:hidden"
             src="obrazky/hamburger.svg"
             alt="menulogo"
             onclick="toggleNav()"
@@ -109,8 +159,10 @@
         </div>
       </section>
     </header>
-    <img class="w-screen" src="obrazky/barak.png" alt="barak Stanovice" />
-    <main>
+    <div
+      class="w-auto h-48 bg-center bg-no-repeat bg-cover md:h-72 bg-domek"
+    ></div>
+    <main class="flex-grow">
       <!-- Hlavní text -->
       <section class="pt-4 pb-4 mt-auto md:pt-9 lg:pt-14 md:pb-9 lg:pb-14">
         <div class="w-auto mx-auto">
@@ -161,42 +213,47 @@
       </section>
     </main>
 
-    <footer
-      class="relative grid content-center h-20 mt-auto text-white bg-black md:h-28 lg:h-36"
-    >
+    <footer class="h-20 text-white bg-black md:h-28 xl:h-[136px]">
       <section
-        class="ml-auto mr-auto justify-center lg:justify-center lg:flex lg:items-center 2xl:max-w-[1550px] xl:max-w-[1240px] lg:max-w-[992px] md:max-w-[746px] max-w-[280px]"
+        class="flex flex-col items-center text-center justify-center xl:flex xl:flex-row 2xl:items-center 2xl:py-12 xl:py-12 lg:py-8 md:py-8 py-[25px] xl:justify-between max-w-[280px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-[1240px] 2xl:max-w-[1550px] mx-auto"
       >
-        <div class="text-base">
-          <div
-            class="invisible text-base 2xl:w-[718px] xl:w-[563px] lg:w-[439px] lg:visible"
-          >
-            <a
-              href="https://www.facebook.com/people/Domek-U-Labe/61557038147963/"
-              target="_blank"
-              class="mr-22 fa-brands fa-facebook fa-fw"
-            ></a>
-            <!-- Instagram není 16x16 -->
-            <a
-              href="https://www.instagram.com/domek_u_labe"
-              target="_blank"
-              class="fa-brands fa-instagram"
-            ></a>
+        <div class="xl:flex xl:flex-row xl:items-center xl:w-[294px] hidden">
+          <a
+            href="https://www.facebook.com/people/Domek-U-Labe/61557038147963/"
+            target="_blank"
+            class="xl:mr-22 fa-brands fa-facebook"
+          ></a>
+          <div class="text-white">
+            <a href="https://www.instagram.com/domek_u_labe" target="_blank">
+              <img
+                class="w-4 h-4"
+                src="obrazky/Instagram_Glyph_White.png"
+                alt=""
+              />
+            </a>
           </div>
         </div>
+
         <div
-          class="invisible lg:flex lg:flex-col lg:items-center lg:justify-center lg:visible w-[114px]"
+          class="hidden xl:flex xl:flex-col xl:items-center xl:justify-center"
         >
           <img class="w-5 h-4 text-xs" src="obrazky/whitelogo.svg" alt="" />
           <p>Domek U Labe</p>
         </div>
-        <div
-          class="absolute inset-0 flex items-center justify-center lg:justify-end lg:relative 2xl:w-[718px] xl:w-[563px] lg:w-[439px] lg:text-sm lg:font-normal text-xxs"
-        >
-          <div class="absolute visible top-11 md:top-16 lg:invisible lg:top-0">
-            +420 737 015 382, domekulabe@gmail.com
+
+        <div>
+          <div>
+            <p
+              class="text-white text-xxs md:text-base xl:w-[294px] xl:text-sm xl:font-normal"
+            >
+              Stanovice 31, 544 01 Dvůr Králové nad Labem
+            </p>
           </div>
-          <p class="text-center">Stanovice 31, 544 01 Dvůr Králové nad Labem</p>
+          <div>
+            <p class="block text-white text-xxs md:text-base xl:hidden">
+              +420 737 015 382, domekulabe@gmail.com
+            </p>
+          </div>
         </div>
       </section>
     </footer>
