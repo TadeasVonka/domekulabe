@@ -53,6 +53,28 @@ function checkInputs() {
   }
 }
 
+function sendCopyEmail() {
+  var checkbox = document.getElementById("box");
+  var emailField = document.getElementById("email");
+  var email = emailField.value;
+
+  if (checkbox.checked) {
+    const bodyMessage = `Celé jméno: ${fullName.value}<br> Email: ${email}<br> Telefon: ${phone.value}<br> Zpráva: ${mess.value}`;
+
+    Email.send({
+      SecureToken: "b043c137-92e1-4558-aae8-33420693cf37",
+      To: email,
+      From: "domekulabe@gmail.com",
+      Subject: "Kopie z formuláře na webu",
+      Body: bodyMessage,
+    }).then((message) => {
+      if (message == "OK") {
+      }
+    });
+  } else {
+  }
+}
+
 function checkEmail() {
   const emailRegex = /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,3})(\.[a-z]{2,3})?$/;
   const errorTxtEmail = document.querySelector(".error-txt.email");
@@ -82,6 +104,8 @@ form.addEventListener("submit", (e) => {
     !phone.classList.contains("error") &&
     !mess.classList.contains("error")
   ) {
+    sendCopyEmail();
+
     sendEmail();
 
     form.reset();
