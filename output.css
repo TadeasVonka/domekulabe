@@ -1040,6 +1040,11 @@ video {
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1128,6 +1133,14 @@ textarea:focus + .input-label,
 textarea:not(:placeholder-shown) + .input-label {
   transform: translateY(-1rem) scale(0.8);
   color: #a0aec0;
+}
+
+.field.error .item {
+  border-color: red;
+}
+
+.field.error .error-txt {
+  display: block;
 }
 
 .before\:absolute::before {

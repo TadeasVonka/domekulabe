@@ -229,51 +229,63 @@
               class="md:pl-6 lg:pl-14 xl:pl-[155.5px] 2xl:pl-[115.5px] pb-4 md:pb-0"
             >
               <!--Name input-->
-              <div class="relative mb-6" data-twe-input-wrapper-init>
+              <div class="relative mb-6 input-field field">
                 <input
                   type="text"
-                  class="peer block h-10 w-[320px] md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] text-sm font-Roboto font-normal rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
-                  id="exampleInput7"
+                  class="item peer block h-10 w-[320px] md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] text-sm font-Roboto font-normal rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
+                  id="name"
                   placeholder="Jméno"
                 />
                 <label for="exampleInput7" class="input-label">Jméno</label>
+                <div class="hidden text-red-500 error-txt">
+                  *Jméno nemůže být prázdné
+                </div>
               </div>
 
               <!--Email input-->
-              <div class="relative mb-6" data-twe-input-wrapper-init>
+              <div class="relative mb-6 input-field field">
                 <input
                   type="email"
-                  class="peer block w-[320px] h-10 text-sm md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] font-Roboto font-normal rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
-                  id="exampleInput8"
+                  class="item peer block w-[320px] h-10 text-sm md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] font-Roboto font-normal rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
+                  id="email"
                   placeholder="E-mailová adresa"
                 />
                 <label for="exampleInput8" class="input-label"
                   >E-mailová adresa</label
                 >
+                <div class="hidden text-red-500 error-txt email">
+                  *E-mailová adresa nemůže být prázdná
+                </div>
               </div>
 
               <!--Telefon input-->
-              <div class="relative mb-6" data-twe-input-wrapper-init>
+              <div class="relative mb-6 input-field field">
                 <input
                   type="tel"
-                  class="peer block h-10 w-[320px] md:w-[282px] lg:w-[362px] xl:w-[400px] lining-nums 2xl:w-[480px] text-sm font-Roboto font-normal rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
-                  id="exampleInput9"
+                  class="item peer block h-10 w-[320px] md:w-[282px] lg:w-[362px] xl:w-[400px] lining-nums 2xl:w-[480px] text-sm font-Roboto font-normal rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
+                  id="phone"
                   placeholder="Telefon"
                 />
                 <label for="exampleInput9" class="input-label">Telefon</label>
+                <div class="hidden text-red-500 error-txt">
+                  *Telefon nemůže být prázdný
+                </div>
               </div>
 
               <!--Message textarea-->
-              <div class="relative mb-6" data-twe-input-wrapper-init>
+              <div class="relative mb-6 input-field field">
                 <textarea
-                  class="peer block min-h-[auto] w-[320px] md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] font-Roboto font-normal text-sm rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
-                  id="exampleFormControlTextarea13"
+                  class="item peer block min-h-[auto] w-[320px] md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] font-Roboto font-normal text-sm rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
+                  id="message"
                   rows="5"
                   placeholder="Zpráva"
                 ></textarea>
                 <label for="exampleFormControlTextarea13" class="input-label"
                   >Zpráva</label
                 >
+                <div class="hidden text-red-500 error-txt">
+                  *Zpráva nemůže být prázdná
+                </div>
               </div>
 
               <!--Checkbox-->
@@ -345,13 +357,15 @@
           </div>
           <div>
             <p class="block text-white text-xxs md:text-base xl:hidden">
-              +420 737 015 382, domekulabe@gmail.com
+              Tel: +420 737 015 382 &#124; Email: domekulabe@gmail.com
             </p>
           </div>
         </div>
       </section>
     </footer>
     <script src="add.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="form.js"></script>
     <script
       src="https://kit.fontawesome.com/23758139c6.js"

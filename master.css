@@ -30,3 +30,11 @@ textarea:not(:placeholder-shown) + .input-label {
   transform: translateY(-1rem) scale(0.8);
   color: #a0aec0;
 }
+
+.field.error .item {
+  border-color: red;
+}
+
+.field.error .error-txt {
+  display: block;
+}
