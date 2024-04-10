@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       colors: {
         beige: "#9E7E44",
+        lblack: "#231F20",
+        extralblack: "#2E2A2B",
       },
       width: {
         13: "3.25rem",

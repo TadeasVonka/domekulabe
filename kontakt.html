@@ -88,9 +88,11 @@
             />
           </div>
           <div class="min-w-[142px] md:min-w-[254px] lg:min-w-[338px]">
-            <h1 class="text-xl font-semibold md:text-4xl lg:text-5xl">
-              Domek U Labe
-            </h1>
+            <a href="kontakt.html">
+              <h1 class="text-xl font-semibold md:text-4xl lg:text-5xl">
+                Domek U Labe
+              </h1>
+            </a>
           </div>
         </div>
 
@@ -175,7 +177,7 @@
       <section
         class="flex flex-col md:flex-row max-w-[320px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-[1240px] 2xl:max-w-[1550px] mx-auto md:pb-6 lg:pb-14"
       >
-        <div class="flex flex-col">
+        <div class="2xl:flex 2xl:flex-col">
           <iframe
             class="max-w-[320px] md:max-w-[440px] max-h-[240px] md:max-h-[360px] lg:max-w-[574px] lg:max-h-[526px] xl:max-w-[585px] 2xl:max-w-[895px]"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1512.1891962140194!2d15.86978445173785!3d50.400316158938296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470e86461d497acb%3A0x4754de90f2d1e810!2sStanovice%2031%2C%20544%2001%20Stanovice!5e0!3m2!1scs!2scz!4v1711916024819!5m2!1scs!2scz"
@@ -187,7 +189,7 @@
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
           <img
-            class="pt-6 xl:pt-14 md:max-w-[440px] md:max-h-[360px] lg:max-w-[574px] lg:max-h-[526px] xl:max-w-[585px] 2xl:max-w-[895px]"
+            class="pt-4 xl:pt-14 md:max-w-[440px] md:max-h-[360px] lg:max-w-[574px] lg:max-h-[526px] xl:max-w-[585px] 2xl:max-w-[895px]"
             src="obrazky/finalmap.webp"
             alt=""
             width="927"
@@ -196,16 +198,16 @@
           />
         </div>
         <div>
-          <div class="pt-6 md:pt-0 md:pl-6 lg:pl-14">
+          <div class="pt-4 md:pt-0 md:pl-6 lg:pl-14 2xl:pl-8 2xl:pr-6">
             <div>
               <h1
-                class="text-xl font-medium md:text-base md:font-semibold lg:text-xl xl:text-2xl"
+                class="text-xl font-medium text-center md:text-left md:text-base md:font-semibold lg:text-xl xl:text-2xl"
               >
                 Domek U Labe
               </h1>
 
               <p class="pt-2 text-sm md:pt-3 xl:pt-6 lg:text-lg xl:text-2xl">
-                Adresa: Stanovice 31, Dvůr Králové nad Labem 544 01
+                Adresa: Stanovice 31, 544 01 Dvůr Králové nad Labem <br />
               </p>
               <p class="pt-2 text-sm md:pt-3 xl:pt-6 lg:text-lg xl:text-2xl">
                 Telefon: +420 737 015 382 - Petra Fejglová
@@ -219,34 +221,36 @@
             </div>
           </div>
 
-          <div class="pt-6 xl:pt-14">
+          <div class="pt-4 xl:flex xl:flex-col xl:justify-center xl:pt-14">
             <h1
-              class="pb-4 text-base font-medium text-center lg:text-xl md:text-lg lg:ml-14 xl:text-2xl"
+              class="pb-4 text-base font-medium text-center lg:text-xl md:text-lg lg:ml-8 xl:ml-0 2xl:ml-0 xl:text-2xl"
             >
               Kontaktní formulář
             </h1>
             <form
-              class="md:pl-6 lg:pl-14 xl:pl-[155.5px] 2xl:pl-[115.5px] pb-4 md:pb-0"
+              class="md:pl-6 lg:pl-14 xl:pl-0 2xl:pl-[0px] pb-4 md:pb-0 xl:flex xl:flex-col xl:justify-center"
             >
               <!--Name input-->
-              <div class="relative mb-6 input-field field">
+              <div class="relative mb-6 xl:mx-auto input-field field">
                 <input
                   type="text"
-                  class="item peer block h-10 w-[320px] md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] text-sm font-Roboto font-normal rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
+                  class="item peer block h-10 w-[320px] md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] text-sm font-Roboto font-normal rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
                   id="name"
                   placeholder="Jméno"
                 />
-                <label for="exampleInput7" class="input-label">Jméno</label>
+                <label for="exampleInput7" class="input-label"
+                  >Vaše jméno</label
+                >
                 <div class="hidden text-red-500 error-txt">
                   *Jméno nemůže být prázdné
                 </div>
               </div>
 
               <!--Email input-->
-              <div class="relative mb-6 input-field field">
+              <div class="relative mb-6 xl:mx-auto input-field field">
                 <input
                   type="email"
-                  class="item peer block w-[320px] h-10 text-sm md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] font-Roboto font-normal rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
+                  class="item peer block w-[320px] h-10 text-sm md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] font-Roboto font-normal rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
                   id="email"
                   placeholder="E-mailová adresa"
                 />
@@ -259,10 +263,10 @@
               </div>
 
               <!--Telefon input-->
-              <div class="relative mb-6 input-field field">
+              <div class="relative mb-6 xl:mx-auto input-field field">
                 <input
                   type="tel"
-                  class="item peer block h-10 w-[320px] md:w-[282px] lg:w-[362px] xl:w-[400px] lining-nums 2xl:w-[480px] text-sm font-Roboto font-normal rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
+                  class="item peer block h-10 w-[320px] md:w-[282px] lg:w-[362px] xl:w-[400px] lining-nums 2xl:w-[480px] text-sm font-Roboto font-normal rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
                   id="phone"
                   placeholder="Telefon"
                 />
@@ -273,9 +277,9 @@
               </div>
 
               <!--Message textarea-->
-              <div class="relative mb-6 input-field field">
+              <div class="relative mb-6 xl:mx-auto input-field field">
                 <textarea
-                  class="item peer block min-h-[auto] w-[320px] md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] font-Roboto font-normal text-sm rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
+                  class="item peer block min-h-[auto] w-[320px] md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] font-Roboto font-normal text-sm rounded border bg-[#FBFBFB] px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary motion-reduce:transition-none dark:text-black dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
                   id="message"
                   rows="5"
                   placeholder="Zpráva"
@@ -290,7 +294,7 @@
 
               <!--Checkbox-->
               <div
-                class="mb-6 flex min-h-[1.5rem] items-center justify-center ps-[1.5rem] md:ps-0 md:w-[282px] lg:w-[362px]"
+                class="mb-6 flex min-h-[1.5rem] xl:mx-auto items-center justify-center ps-[1.5rem] md:ps-0 md:w-[282px] lg:w-[362px]"
               >
                 <input
                   class="relative float-left -ms-[1.5rem] me-[6px] mt-[0.15rem] h-[1.125rem] w-[1.125rem]"
@@ -308,7 +312,7 @@
               <!--Submit button-->
               <button
                 type="submit"
-                class="inline-block w-[320px] md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] rounded bg-beige px-6 pb-2 pt-2.5 text-xs xl:text-sm xl:font-semibold font-medium uppercase leading-normal text-white"
+                class="inline-block w-[320px] xl:mx-auto md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] rounded bg-beige px-6 pb-2 pt-2.5 text-xs xl:text-sm xl:font-semibold font-medium uppercase leading-normal text-white"
                 data-twe-ripple-init
                 data-twe-ripple-color="light"
               >
@@ -319,50 +323,100 @@
         </div>
       </section>
     </main>
-    <footer class="h-20 text-white bg-black md:h-28 xl:h-[136px]">
+
+    <footer class="text-white bg-lblack md:py-14 xl:py-14">
       <section
-        class="flex flex-col items-center text-center justify-center xl:flex xl:flex-row 2xl:items-center 2xl:py-12 xl:py-12 lg:py-8 md:py-8 py-[25px] xl:justify-between max-w-[280px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-[1240px] 2xl:max-w-[1550px] mx-auto"
+        class="flex flex-col items-center text-center md:mx-auto md:flex-row xl:flex-col md:max-w-[746px] md:max-h-[211px] lg:max-w-[992px] xl:max-w-[1240px] 2xl:max-w-[1550px] xl:max-h-none"
       >
-        <div class="xl:flex xl:flex-row xl:items-center xl:w-[294px] hidden">
+        <div
+          class="flex flex-col xl:flex-row xl:gap-6 xl:pr-0 justify-center text-xl font-bold text-center pt-14 md:pt-0 md:pr-[11.5px] leading-[23px] lg:pr-[134.5px]"
+        >
+          <a href="index.html">Úvod</a>
           <a
-            href="https://www.facebook.com/people/Domek-U-Labe/61557038147963/"
-            target="_blank"
-            class="xl:mr-22 fa-brands fa-facebook"
-          ></a>
-          <div class="text-white">
-            <a href="https://www.instagram.com/domek_u_labe" target="_blank">
-              <img
-                class="w-4 h-4"
-                src="obrazky/Instagram_Glyph_White.png"
-                alt=""
-              />
-            </a>
-          </div>
+            class="pt-6 xl:pt-0 md:min-w-[361px] xl:min-w-max"
+            href="tipynavylet.html"
+            >Tipy na výlet</a
+          >
+          <a class="pt-6 xl:pt-0" href="kalendar.html">Kalendář</a>
+          <a class="pt-6 xl:pt-0" href="fotogalerie.html">Fotogalerie</a>
+          <a class="pt-6 xl:pt-0" href="kontakt.html">Kontakt</a>
         </div>
+
+        <!-- Beige line-->
+        <hr
+          class="hidden md:block lg:block xl:block xl:h-px xl:w-[1240px] 2xl:w-[1550px] xl:mt-14 xl:mb-6 xl:border-0 md:h-[211px] md:w-px bg-beige md:border-0 md:my-14"
+        />
 
         <div
-          class="hidden xl:flex xl:flex-col xl:items-center xl:justify-center"
+          class="text-center pt-14 md:pt-[0px] md:pl-[11.5px] lg:pl-[134.5px] md:max-h-[189px] pb-14 md:pb-0 xl:pl-0 xl:flex xl:flex-row-reverse xl:justify-center xl:max-w-[1240px] xl:gap-[203px] 2xl:gap-[358px] 2xl:justify-center"
         >
-          <img class="w-5 h-4 text-xs" src="obrazky/whitelogo.svg" alt="" />
-          <p>Domek U Labe</p>
-        </div>
-
-        <div>
-          <div>
-            <p
-              class="text-white text-xxs md:text-base xl:w-[294px] xl:text-sm xl:font-normal"
+          <div class="xl:min-w-[361px] xl:text-right">
+            <h1 class="text-xl font-bold leading-[23px]">Kontaktujte nás</h1>
+            <div class="flex justify-center xl:justify-end">
+              <hr class="h-px my-[11.5px] border-0 w-14 bg-beige" />
+            </div>
+            <div class="font-normal leading-[19px]">
+              <p>+420 737 015 382 - Petra Fejglová</p>
+              <p>domekulabe@gmail.com</p>
+            </div>
+          </div>
+          <div
+            class="hidden xl:flex xl:flex-col xl:items-center xl:justify-center xl:min-w-[112px]"
+          >
+            <a
+              class="xl:flex xl:flex-col xl:items-center xl:justify-center"
+              href="index.html"
             >
-              Stanovice 31, 544 01 Dvůr Králové nad Labem
-            </p>
+              <img
+                class="xl:w-5 xl:h-4 xl:text-xs"
+                src="obrazky/whitelogo.svg"
+                alt=""
+              />
+              <p>Domek U Labe</p>
+            </a>
           </div>
           <div>
-            <p class="block text-white text-xxs md:text-base xl:hidden">
-              +420 737 015 382 &#124; domekulabe@gmail.com
-            </p>
+            <div
+              class="flex flex-row justify-center gap-3 pt-6 pb-3 text-base xl:flex xl:justify-start xl:pt-0"
+            >
+              <div
+                class="w-[30px] h-[30px] xl:w-[35px] xl:h-[35px] bg-extralblack flex justify-center items-center rounded-full"
+              >
+                <a
+                  href="https://www.facebook.com/people/Domek-U-Labe/61557038147963/"
+                  target="_blank"
+                  ><img
+                    class="w-4 h-4 xl:w-[21px] xl:h-[21px]"
+                    src="obrazky/Facebook_Logo_Secondary.png"
+                    alt=""
+                /></a>
+              </div>
+              <div
+                class="w-[30px] h-[30px] xl:w-[35px] xl:h-[35px] bg-extralblack flex justify-center items-center rounded-full"
+              >
+                <a
+                  href="https://www.instagram.com/domek_u_labe"
+                  target="_blank"
+                >
+                  <img
+                    src="obrazky/Instagram_Glyph_White.svg"
+                    class="w-4 h-4 xl:w-[21px] xl:h-[21px]"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+
+            <div
+              class="text-base font-normal text-center text-white/50 md:min-w-[361px] leading-[19px] xl:text-left"
+            >
+              <p>Stanovice 31</p>
+              <p>544 01 Dvůr Králové nad Labem</p>
+            </div>
           </div>
         </div>
       </section>
     </footer>
+
     <script src="add.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

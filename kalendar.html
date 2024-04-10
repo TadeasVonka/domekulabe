@@ -88,9 +88,11 @@
             />
           </div>
           <div class="min-w-[142px] md:min-w-[254px] lg:min-w-[338px]">
-            <h1 class="text-xl font-semibold md:text-4xl lg:text-5xl">
-              Domek U Labe
-            </h1>
+            <a href="kalendar.html">
+              <h1 class="text-xl font-semibold md:text-4xl lg:text-5xl">
+                Domek U Labe
+              </h1>
+            </a>
           </div>
         </div>
 
@@ -162,54 +164,111 @@
       class="w-auto h-48 bg-center bg-no-repeat bg-cover md:h-72 bg-domek"
     ></div>
     <main>
-      <div class="py-14">
-        <h1 class="text-center text-9xl">ČEKÁM NA KALENDÁŘ</h1>
+      <div class="py-4 md:py-6 2xl:py-14 lg:py-14">
+        <h1
+          class="text-xl font-semibold text-center md:text-3xl 2xl:text-5xl lg:text-[40px] text-beige"
+        >
+          Kalendář
+        </h1>
+      </div>
+      <div class="py-4 xl:py-14">
+        <h1 class="text-center text-7xl xl:text-9xl">ČEKÁM NA KALENDÁŘ</h1>
       </div>
     </main>
-    <footer class="h-20 text-white bg-black md:h-28 xl:h-[136px]">
+
+    <footer class="text-white bg-lblack md:py-14 xl:py-14">
       <section
-        class="flex flex-col items-center text-center justify-center xl:flex xl:flex-row 2xl:items-center 2xl:py-12 xl:py-12 lg:py-8 md:py-8 py-[25px] xl:justify-between max-w-[280px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-[1240px] 2xl:max-w-[1550px] mx-auto"
+        class="flex flex-col items-center text-center md:mx-auto md:flex-row xl:flex-col md:max-w-[746px] md:max-h-[211px] lg:max-w-[992px] xl:max-w-[1240px] 2xl:max-w-[1550px] xl:max-h-none"
       >
-        <div class="xl:flex xl:flex-row xl:items-center xl:w-[294px] hidden">
+        <div
+          class="flex flex-col xl:flex-row xl:gap-6 xl:pr-0 justify-center text-xl font-bold text-center pt-14 md:pt-0 md:pr-[11.5px] leading-[23px] lg:pr-[134.5px]"
+        >
+          <a href="index.html">Úvod</a>
           <a
-            href="https://www.facebook.com/people/Domek-U-Labe/61557038147963/"
-            target="_blank"
-            class="xl:mr-22 fa-brands fa-facebook"
-          ></a>
-          <div class="text-white">
-            <a href="https://www.instagram.com/domek_u_labe" target="_blank">
-              <img
-                class="w-4 h-4"
-                src="obrazky/Instagram_Glyph_White.png"
-                alt=""
-              />
-            </a>
-          </div>
+            class="pt-6 xl:pt-0 md:min-w-[361px] xl:min-w-max"
+            href="tipynavylet.html"
+            >Tipy na výlet</a
+          >
+          <a class="pt-6 xl:pt-0" href="kalendar.html">Kalendář</a>
+          <a class="pt-6 xl:pt-0" href="fotogalerie.html">Fotogalerie</a>
+          <a class="pt-6 xl:pt-0" href="kontakt.html">Kontakt</a>
         </div>
+
+        <!-- Beige line-->
+        <hr
+          class="hidden md:block lg:block xl:block xl:h-px xl:w-[1240px] 2xl:w-[1550px] xl:mt-14 xl:mb-6 xl:border-0 md:h-[211px] md:w-px bg-beige md:border-0 md:my-14"
+        />
 
         <div
-          class="hidden xl:flex xl:flex-col xl:items-center xl:justify-center"
+          class="text-center pt-14 md:pt-[0px] md:pl-[11.5px] lg:pl-[134.5px] md:max-h-[189px] pb-14 md:pb-0 xl:pl-0 xl:flex xl:flex-row-reverse xl:justify-center xl:max-w-[1240px] xl:gap-[203px] 2xl:gap-[358px] 2xl:justify-center"
         >
-          <img class="w-5 h-4 text-xs" src="obrazky/whitelogo.svg" alt="" />
-          <p>Domek U Labe</p>
-        </div>
-
-        <div>
-          <div>
-            <p
-              class="text-white text-xxs md:text-base xl:w-[294px] xl:text-sm xl:font-normal"
+          <div class="xl:min-w-[361px] xl:text-right">
+            <h1 class="text-xl font-bold leading-[23px]">Kontaktujte nás</h1>
+            <div class="flex justify-center xl:justify-end">
+              <hr class="h-px my-[11.5px] border-0 w-14 bg-beige" />
+            </div>
+            <div class="font-normal leading-[19px]">
+              <p>+420 737 015 382 - Petra Fejglová</p>
+              <p>domekulabe@gmail.com</p>
+            </div>
+          </div>
+          <div
+            class="hidden xl:flex xl:flex-col xl:items-center xl:justify-center xl:min-w-[112px]"
+          >
+            <a
+              class="xl:flex xl:flex-col xl:items-center xl:justify-center"
+              href="index.html"
             >
-              Stanovice 31, 544 01 Dvůr Králové nad Labem
-            </p>
+              <img
+                class="xl:w-5 xl:h-4 xl:text-xs"
+                src="obrazky/whitelogo.svg"
+                alt=""
+              />
+              <p>Domek U Labe</p>
+            </a>
           </div>
           <div>
-            <p class="block text-white text-xxs md:text-base xl:hidden">
-              +420 737 015 382 &#124; domekulabe@gmail.com
-            </p>
+            <div
+              class="flex flex-row justify-center gap-3 pt-6 pb-3 text-base xl:flex xl:justify-start xl:pt-0"
+            >
+              <div
+                class="w-[30px] h-[30px] xl:w-[35px] xl:h-[35px] bg-extralblack flex justify-center items-center rounded-full"
+              >
+                <a
+                  href="https://www.facebook.com/people/Domek-U-Labe/61557038147963/"
+                  target="_blank"
+                  ><img
+                    class="w-4 h-4 xl:w-[21px] xl:h-[21px]"
+                    src="obrazky/Facebook_Logo_Secondary.png"
+                    alt=""
+                /></a>
+              </div>
+              <div
+                class="w-[30px] h-[30px] xl:w-[35px] xl:h-[35px] bg-extralblack flex justify-center items-center rounded-full"
+              >
+                <a
+                  href="https://www.instagram.com/domek_u_labe"
+                  target="_blank"
+                >
+                  <img
+                    src="obrazky/Instagram_Glyph_White.svg"
+                    class="w-4 h-4 xl:w-[21px] xl:h-[21px]"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+
+            <div
+              class="text-base font-normal text-center text-white/50 md:min-w-[361px] leading-[19px] xl:text-left"
+            >
+              <p>Stanovice 31</p>
+              <p>544 01 Dvůr Králové nad Labem</p>
+            </div>
           </div>
         </div>
       </section>
     </footer>
+
     <script src="add.js"></script>
     <script
       src="https://kit.fontawesome.com/23758139c6.js"
