@@ -83,19 +83,19 @@
       >
         <div class="flex items-center">
           <a class="flex items-center" href="index.html">
-          <div class="pr-2 md:pr-4 lg:mr-5 xl:mr-0 xl:pr-5">
-            <img
-              class="w-5 h-4 md:w-9 md:h-7 lg:w-13 lg:h-10"
-              src="obrazky/logo.svg"
-              alt="logo_stanovic"
-            />
-          </div>
-          <div class="min-w-[142px] md:min-w-[254px] lg:min-w-[338px]">
+            <div class="pr-2 md:pr-4 lg:mr-5 xl:mr-0 xl:pr-5">
+              <img
+                class="w-5 h-4 md:w-9 md:h-7 lg:w-13 lg:h-10"
+                src="obrazky/logo.svg"
+                alt="logo_stanovic"
+              />
+            </div>
+            <div class="min-w-[142px] md:min-w-[254px] lg:min-w-[338px]">
               <h1 class="text-xl font-semibold md:text-4xl lg:text-5xl">
                 Domek U Labe
               </h1>
-          </div>
-            </a>
+            </div>
+          </a>
         </div>
 
         <div
@@ -155,7 +155,7 @@
           <img
             class="block w-5 h-4 cursor-pointer md:w-8 md:h-6 lg:w-11 lg:h-8 xl:hidden"
             src="obrazky/hamburger.svg"
-            alt="menulogo"
+            alt="Domek U Labe - Menu logo"
             onclick="toggleNav()"
           />
         </div>
@@ -166,7 +166,7 @@
       class="w-auto h-48 bg-center bg-no-repeat bg-cover md:h-72 bg-domek"
     ></div>
 
-    <main>
+    <main class="flex flex-col xl:min-h-screen">
       <div class="py-4 text-center md:py-6 2xl:py-14 lg:py-14">
         <h1
           class="text-xl font-semibold text-center md:text-3xl 2xl:text-5xl lg:text-[40px] text-beige"
@@ -174,94 +174,114 @@
           Fotogalerie
         </h1>
       </div>
-      <div
-        class="mx-auto grid lg:grid-cols-4 grid-cols-2 gap-4 2xl:max-w-[1550px] xl:max-w-[1240px] lg:max-w-[992px] md:max-w-[746px] max-w-[320px] xl:pb-14 pb-4"
-      >
-        <div class="overflow-hidden">
-          <a
-            class="block w-full h-full spotlight"
-            href="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg"
-          >
-            <img
-              class="transition duration-150 ease-in-out transform hover:scale-110"
-              src="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg"
-            />
-          </a>
-        </div>
+      <div class="flex flex-col flex-grow">
+        <div
+          class="mx-auto grid lg:grid-cols-4 grid-cols-2 gap-4 2xl:max-w-[1550px] xl:max-w-[1240px] lg:max-w-[992px] md:max-w-[746px] max-w-[320px] xl:pb-14 pb-4"
+        >
+          <div class="overflow-hidden">
+            <a
+              class="block w-full h-full spotlight"
+              href="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg"
+            >
+              <img
+                class="transition duration-150 ease-in-out transform hover:scale-110"
+                loading="lazy"
+                alt="Domek U Labe"
+                src="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg"
+              />
+            </a>
+          </div>
 
-        <div class="overflow-hidden">
-          <a
-            class="block w-full h-full spotlight"
-            href="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg"
-          >
-            <img
-              class="transition duration-150 ease-in-out transform hover:scale-110"
-              src="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg"
-            />
-          </a>
-        </div>
-        <div class="overflow-hidden">
-          <a
-            class="block w-full h-full spotlight"
-            href="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg"
-          >
-            <img
-              class="transition duration-150 ease-in-out transform hover:scale-110"
-              src="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg"
-            />
-          </a>
-        </div>
-        <div class="overflow-hidden">
-          <a
-            class="block w-full h-full spotlight"
-            href="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg"
-          >
-            <img
-              class="transition duration-150 ease-in-out transform hover:scale-110"
-              src="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg"
-            />
-          </a>
-        </div>
-        <div class="overflow-hidden">
-          <a class="block w-full h-full spotlight" href="obrazky/barak.png">
-            <img
-              class="transition duration-150 ease-in-out transform hover:scale-110"
-              src="obrazky/barak.png"
-            />
-          </a>
-        </div>
+          <div class="overflow-hidden">
+            <a
+              class="block w-full h-full spotlight"
+              href="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg"
+            >
+              <img
+                class="transition duration-150 ease-in-out transform hover:scale-110"
+                loading="lazy"
+                alt="Domek U Labe"
+                src="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden">
+            <a
+              class="block w-full h-full spotlight"
+              href="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg"
+            >
+              <img
+                class="transition duration-150 ease-in-out transform hover:scale-110"
+                loading="lazy"
+                alt="Domek U Labe"
+                src="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden">
+            <a
+              class="block w-full h-full spotlight"
+              href="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg"
+            >
+              <img
+                class="transition duration-150 ease-in-out transform hover:scale-110"
+                loading="lazy"
+                alt="Domek U Labe"
+                src="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden">
+            <a class="block w-full h-full spotlight" href="obrazky/barak.png">
+              <img
+                class="transition duration-150 ease-in-out transform hover:scale-110"
+                src="obrazky/barak.png"
+                loading="lazy"
+                alt="Domek U Labe"
+              />
+            </a>
+          </div>
 
-        <div class="overflow-hidden">
-          <a class="block w-full h-full spotlight" href="obrazky/barak.png">
-            <img
-              class="transition duration-150 ease-in-out transform hover:scale-110"
-              src="obrazky/barak.png"
-            />
-          </a>
-        </div>
-        <div class="overflow-hidden">
-          <a class="block w-full h-full spotlight" href="obrazky/barak.png">
-            <img
-              class="transition duration-150 ease-in-out transform hover:scale-110"
-              src="obrazky/barak.png"
-            />
-          </a>
-        </div>
-        <div class="overflow-hidden">
-          <a class="block w-full h-full spotlight" href="obrazky/barak.png">
-            <img
-              class="transition duration-150 ease-in-out transform hover:scale-110"
-              src="obrazky/barak.png"
-            />
-          </a>
-        </div>
-        <div class="overflow-hidden">
-          <a class="block w-full h-full spotlight" href="obrazky/barak.png">
-            <img
-              class="transition duration-150 ease-in-out transform hover:scale-110"
-              src="obrazky/barak.png"
-            />
-          </a>
+          <div class="overflow-hidden">
+            <a class="block w-full h-full spotlight" href="obrazky/barak.png">
+              <img
+                class="transition duration-150 ease-in-out transform hover:scale-110"
+                src="obrazky/barak.png"
+                loading="lazy"
+                alt="Domek U Labe"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden">
+            <a class="block w-full h-full spotlight" href="obrazky/barak.png">
+              <img
+                class="transition duration-150 ease-in-out transform hover:scale-110"
+                src="obrazky/barak.png"
+                loading="lazy"
+                alt="Domek U Labe"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden">
+            <a class="block w-full h-full spotlight" href="obrazky/barak.png">
+              <img
+                class="transition duration-150 ease-in-out transform hover:scale-110"
+                src="obrazky/barak.png"
+                loading="lazy"
+                alt="Domek U Labe"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden">
+            <a class="block w-full h-full spotlight" href="obrazky/barak.png">
+              <img
+                class="transition duration-150 ease-in-out transform hover:scale-110"
+                src="obrazky/barak.png"
+                loading="lazy"
+                alt="Domek U Labe"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </main>
@@ -312,7 +332,7 @@
               <img
                 class="xl:w-5 xl:h-4 xl:text-xs"
                 src="obrazky/whitelogo.svg"
-                alt=""
+                alt="Domek U Labe - Bílé logo"
               />
               <p>Domek U Labe</p>
             </a>
@@ -330,7 +350,7 @@
                   ><img
                     class="w-4 h-4 xl:w-[21px] xl:h-[21px]"
                     src="obrazky/Facebook_Logo_Secondary.png"
-                    alt=""
+                    alt="Domek U Labe - Facebook logo"
                 /></a>
               </div>
               <div
@@ -343,7 +363,7 @@
                   <img
                     src="obrazky/Instagram_Glyph_White.svg"
                     class="w-4 h-4 xl:w-[21px] xl:h-[21px]"
-                    alt=""
+                    alt="Domek U Labe - Instagram logo"
                 /></a>
               </div>
             </div>
@@ -360,9 +380,5 @@
     </footer>
 
     <script src="add.js"></script>
-    <script
-      src="https://kit.fontawesome.com/23758139c6.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>

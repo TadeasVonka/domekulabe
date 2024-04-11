@@ -666,6 +666,10 @@ video {
   min-height: auto;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-14 {
   width: 3.5rem;
 }
@@ -714,8 +718,20 @@ video {
   max-width: 100%;
 }
 
+.flex-auto {
+  flex: 1 1 auto;
+}
+
 .flex-grow {
   flex-grow: 1;
+}
+
+.basis-full {
+  flex-basis: 100%;
+}
+
+.basis-auto {
+  flex-basis: auto;
 }
 
 .translate-x-full {
@@ -1832,6 +1848,10 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .xl\:max-h-none {
     max-height: none;
+  }
+
+  .xl\:min-h-screen {
+    min-height: 100vh;
   }
 
   .xl\:w-5 {
