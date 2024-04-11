@@ -804,6 +804,10 @@ video {
   text-wrap: balance;
 }
 
+.text-pretty {
+  text-wrap: pretty;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -979,12 +983,20 @@ video {
   padding-top: 0.15rem;
 }
 
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
 .text-left {
   text-align: left;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .font-Raleway {
@@ -1027,6 +1039,11 @@ video {
 
 .text-xxss {
   font-size: 0.5rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-black {
@@ -1520,6 +1537,10 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-top: 0px;
   }
 
+  .md\:pt-8 {
+    padding-top: 2rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -1555,6 +1576,16 @@ textarea:not(:placeholder-shown) + .input-label {
   .md\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:font-black {
