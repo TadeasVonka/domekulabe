@@ -1729,6 +1729,10 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-top: 2.25rem;
   }
 
+  .lg\:text-left {
+    text-align: left;
+  }
+
   .lg\:text-right {
     text-align: right;
   }
