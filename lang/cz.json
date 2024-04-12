@@ -1,0 +1,131 @@
+{
+  "h.u": {
+    "span": "Úvod"
+  },
+  "h.tnv": {
+    "span": "Tipy na výlet"
+  },
+  "h.ka": {
+    "span": "Kalendář"
+  },
+  "h.f": {
+    "span": "Fotogalerie"
+  },
+  "h.ko": {
+    "span": "Kontakt"
+  },
+
+  "o.u": {
+    "a": "Úvod"
+  },
+  "o.tnv": {
+    "a": "Tipy na výlet"
+  },
+  "o.ka": {
+    "a": "Kalendář"
+  },
+  "o.f": {
+    "a": "Fotogalerie"
+  },
+  "o.ko": {
+    "a": "Kontakt"
+  },
+
+  "1.on": {
+    "h1": "O nás",
+    "p": "Vítáme vás v Domku U Labe, kde náš příběh začíná snem o vybudování pohodového místa uprostřed nádherné přírody. Po pečlivé rekonstrukci domu, který si zachoval svou původní duši a přitom nabízí moderní pohodlí, jsme se rozhodli otevřít dveře pro všechny, kteří si chtějí užít nezapomenutelný pobyt v srdci přírody, hned u břehu řeky Labe."
+  },
+  "2.cvmn": {
+    "h1": "Co vám můžeme nabídnout?",
+    "p": "Od plně vybavené kuchyně (včetně sporáku, varné desky, lednice a myčky), koupelnou (s vanou, pračkou a sprchovým koutem), samostatnou toaletou, ložnicí a obývacím pokojem s krbovými kamny je připraven tak, abyste si u nás užili příjemný pobyt. Můžete si odpočinout na lavičce pod košatým dubem a vychutnat si pohled na řeku, nebo si užít večery u ohniště pod pískovcovou skálou. K dispozici je také uzamykatelné místo na kola a parkoviště pro dvě auta přímo u domu."
+  },
+  "3.pnn": {
+    "h1": "Proč nás navštívit?",
+    "p": "Protože věříme, že každý z nás si zaslouží místo, kde může načerpat novou energii a kde může prožít nezapomenutelné chvíle s těmi, na kterých mu záleží. Domek U Labe je více než jen ubytování; je to zážitek, který si odnesete v srdci. Těšíme se na vás, abychom společně psali příběhy plné radosti, odpočinku a nekonečných objevů."
+  },
+
+  "t.tnv": {
+    "h1": "Tipy na výlet"
+  },
+  "t.dknl": {
+    "h1": "Dvůr Králové nad Labem",
+    "p": "Starobylé věnné město českých královen, Dvůr Králové nad Labem, se rozprostírá v malebném údolí horního toku řeky Labe. Město přímo vybízí ke strávení aktivně-odpočinkové dovolené. Čeká na vás objevování překrásné přírody, řada uměleckých památek, sportovní i kulturní vyžití, a to v jakémkoliv ročním období."
+  },
+  "t.betlem": {
+    "h1": "Naučná stezka Půjdem spolu do Betléma",
+    "p": "Naučná stezka Půjdem spolu do Betléma spojuje významnou barokní památku Hospitál Kuks s Braunovým Betlémem. Trasa je dlouhá 7 km středně náročným terénem."
+  },
+  "t.dstezky": {
+    "h1": "Další naučné stezky:"
+  },
+  "t.kuks": {
+    "p": "Břehy života a smrti - pozůstatky bývalých barokních lázní a majestátní Hospitál, oddělené Labem coby bájnou řekou Styx. To je ve zkratce Kuks, dílo hraběte Františka Antonína Šporka a nejlepších umělců tehdejší doby v čele s Matyášem Bernardem Braunem.",
+    "p2": "Do Kuksu se dostanete buď na kole anebo pěšky přímo stezkou před domem. Trasa na kole trvá 6minut a je dlouhá 1,5 km. Po cestě se určitě zastavte v lomu sv. Klimenta."
+  },
+  "t.prehrada": {
+    "h1": "Přehrada Les Království",
+    "p": "Vypadá jako zámek, ale skutečnost je daleko prozaičtější. Přehrada Les Království je vystavěna v pseudogotickém stylu a jedná se tak o pravděpodobně nejkrásnější přehradu na našem území. Na kole je to ze Stanovic 13 km a za necelou hodinu jste tam."
+  },
+  "t.safari": {
+    "h1": "Safari Park Dvůr Králové",
+    "p": "Kus Afriky v Podkrkonoší. Prohlédněte si na vlastní oči desítky druhů exotických zvířat a projeďte se i vlastním autem africkým safari, aniž byste utratili jmění za letenky do Nairobi. Autem ze Stanovic je to pouhých 11 minut."
+  },
+  "t.gallery": {
+    "h1": "Výstavní galerie minerálů",
+    "p": "Pro všechny příznivce minerálů a drahých kamenů je zde Výstavní galerie minerálů – muzeum ve Dvoře Králové nad Labem. Autem je to pouhých 7 minut cesty. Můžete jet i na kole, cyklostezka vede okolo a za 21 minut již můžete obdivovat krásné unikáty."
+  },
+  "t.zirec": {
+    "h1": "Barokní areál Žireč",
+    "p": "Nenápadná vesnička Žireč ukrývá barokní sídlo jezuitů, ve kterém se dnes můžete zaposlouchat do zvuků unikátní zvonkohry, navštívit jedinečné cyklomuzeum, kavárnu i prastarou bylinkovou zahrádku. Kávičku u Damiána si můžete objednat již za pouhé 4 minuty autem anebo můžete jet na kole po nové cyklostezce dlouhé 2,9 km, která končí přímo u zámku Žireč."
+  },
+  "t.josefov": {
+    "h1": "Pevnost Josefov",
+    "p": "Barokní pevnost byla vybudována proti vpádu Prusů, bohužel jim v tom ale nezabránila. Vlastně nikdy ani nebojovala. Prusové ji prostě obešli. Nu, jejich škoda. Vy rozhodně stejnou chybu neudělejte a nechte se provést podzemními chodbami nebo si udělejte krásnou procházku po vrcholku opevnění."
+  },
+
+  "ka.ka": {
+    "h1": "Kalendář"
+  },
+  "fo.f": {
+    "h1": "Fotogalerie"
+  },
+  "k.ko": {
+    "h1": "Kontakt"
+  },
+  "k.info": {
+    "adresa": "Adresa: Stanovice 31, 544 01 Dvůr Králové nad Labem",
+    "telefon": "Telefon: +420 737 015 382 - Petra Fejglová"
+  },
+  "k.form": {
+    "h1": "Kontaktní formulář",
+    "jmeno": "Vaše jméno",
+    "jmenoprazdne": "*Jméno nemůže být prázdné",
+    "email": "E-mailová adresa",
+    "emailprazdne": "*E-mailová adresa nemůže být prázdná",
+    "telefon": "Telefon",
+    "telefonprazdne": "*Telefon nemůže být prázdný",
+    "zprava": "Zpráva",
+    "zpravaprazdne": "*Zpráva nemůže být prázdná",
+    "kopie": "Poslat mi kopii prostřednictvím e-mailu.",
+    "button": "Odeslat"
+  },
+
+  "f.u": {
+    "a": "Úvod"
+  },
+  "f.tnv": {
+    "a": "Tipy na výlet"
+  },
+  "f.ka": {
+    "a": "Kalendář"
+  },
+  "f.f": {
+    "a": "Fotogalerie"
+  },
+  "f.ko": {
+    "a": "Kontakt"
+  },
+  "f.kn": {
+    "h1": "Kontaktujte nás"
+  }
+}

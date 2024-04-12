@@ -1,0 +1,131 @@
+{
+  "h.u": {
+    "span": "About"
+  },
+  "h.tnv": {
+    "span": "Tips for trips"
+  },
+  "h.ka": {
+    "span": "Calendar"
+  },
+  "h.f": {
+    "span": "Gallery"
+  },
+  "h.ko": {
+    "span": "Contact"
+  },
+
+  "o.u": {
+    "a": "About"
+  },
+  "o.tnv": {
+    "a": "Tips for trips"
+  },
+  "o.ka": {
+    "a": "Calendar"
+  },
+  "o.f": {
+    "a": "Gallery"
+  },
+  "o.ko": {
+    "a": "Contact"
+  },
+
+  "1.on": {
+    "h1": "About us",
+    "p": "Welcome to Domek U Labe, where our story begins with the dream of building a relaxing place in the middle of beautiful nature. After a careful renovation of the house, which has kept its original soul while offering modern comfort, we decided to open its doors to all those who want to enjoy an unforgettable stay in the heart of nature, right on the banks of the Elbe River."
+  },
+  "2.cvmn": {
+    "h1": "What can we offer you?",
+    "p": "From a fully equipped kitchen (including stove, stove top, fridge and dishwasher), bathroom (with bathtub, washing machine and shower), separate toilet, bedroom and living room with fireplace is ready for you to enjoy a pleasant stay at our place. You can relax on the bench under the mossy oak tree and enjoy the view of the river, or enjoy the evenings by the fireplace under the sandstone rock. There is also a lockable bicycle space and parking for two cars right next to the house."
+  },
+  "3.pnn": {
+    "h1": "Why visit us?",
+    "p": "Because we believe that everyone deserves a place where they can recharge their batteries and spend unforgettable moments with those they care about. Domek U Labe is more than just an accommodation; it's an experience you'll carry in your heart. We look forward to seeing you and writing stories of joy, relaxation and endless discovery together."
+  },
+
+  "t.tnv": {
+    "h1": "Tips for Trips"
+  },
+  "t.dknl": {
+    "p": "The ancient eternal city of Czech queens, Dvůr Králové nad Labem, is situated in the beautiful valley of the upper Elbe River. The town invites you to spend an active and relaxing holiday. There is beautiful nature to discover, many artistic monuments, sports and cultural activities waiting for you, whatever the season."
+  },
+  "t.betlem": {
+    "h1": "Educational trail Let's go to Bethlehem together",
+    "p": "The educational trail Let's Go Together to Bethlehem connects the important Baroque monument Kuks Hospital with Braun's Bethlehem. The trail is 7 km long on moderately difficult terrain."
+  },
+  "t.dstezky": {
+    "h1": "More nature trails:"
+  },
+  "t.kuks": {
+    "p": "The banks of life and death - the remains of the former Baroque baths and the majestic Hospitál, separated by the Elbe, the mythical river Styx. This is Kuks in a nutshell, the work of Count František Antonín Špork and the best artists of the time, led by Matthias Bernard Braun.",
+    "p2": "Kuks can be reached either by bicycle or on foot via the trail in front of the house. The bike route takes 6 minutes and is 1.5 km long. Make sure to stop at St. Clement's Quarry along the way."
+  },
+  "t.prehrada": {
+    "h1": "Les Království reservoir",
+    "p": "It looks like a castle, but the reality is far more prosaic. The Les Království Dam is built in a pseudo-Gothic style and it is probably the most beautiful dam on our territory. It's 13 km by bike from Stanovice and you're there in less than an hour."
+  },
+  "t.safari": {
+    "h1": "Safari Park Dvůr Králové",
+    "p": "A piece of Africa in the Podkrkonoší region. See dozens of species of exotic animals with your own eyes and drive your own car through the African safari without spending a fortune on air tickets to Nairobi. It's only 11 minutes by car from Stanovice."
+  },
+  "t.gallery": {
+    "h1": "Exhibition Gallery of Minerals",
+    "p": "For all fans of minerals and precious stones there is the Mineral Exhibition Gallery - Museum in Dvůr Králové nad Labem. By car it is only 7 minutes away. You can also go by bike, the cycle path leads around and in 21 minutes you can already admire the beautiful unique objects."
+  },
+  "t.zirec": {
+    "h1": "Baroque complex Žireč",
+    "p": "The unassuming village of Žireč hides a Baroque Jesuit residence, where today you can listen to the sounds of a unique chime, visit a unique cyclomuseum, a café and an ancient herb garden. You can order a cup of coffee at Damián's in just 4 minutes by car from Stanovice, or you can cycle along the new 2.9 km long cycle path, which ends right at Žireč Castle."
+  },
+  "t.josefov": {
+    "h1": "Josefov Fortress",
+    "p": "The Baroque fortress was built against the Prussian invasion, but unfortunately it did not prevent them. In fact, it never even fought back. The Prussians simply bypassed it. Well, too bad for them. You definitely don't make the same mistake and let yourself be guided through the underground passages or take a beautiful walk on the top of the fortification."
+  },
+
+  "ka.ka": {
+    "h1": "Calendar"
+  },
+
+  "fo.f": {
+    "h1": "Gallery"
+  },
+  "k.ko": {
+    "h1": "Contact"
+  },
+  "k.info": {
+    "adresa": "Address: Stanovice 31, 544 01 Dvůr Králové nad Labem",
+    "telefon": "Phone: +420 737 015 382 - Petra Fejglová"
+  },
+  "k.form": {
+    "h1": "Contact form",
+    "jmeno": "Your name",
+    "jmenoprazdne": "*Name cannot be blank",
+    "email": "E-mail address",
+    "emailprazdne": "*Email address cannot be blank",
+    "telefon": "Phone",
+    "telefonprazdne": "*Phone address cannot be blank",
+    "zprava": "Message",
+    "zpravaprazdne": "*Message address cannot be blank",
+    "kopie": "Send me a copy via email.",
+    "button": "Send"
+  },
+
+  "f.u": {
+    "a": "About"
+  },
+  "f.tnv": {
+    "a": "Tips for trips"
+  },
+  "f.ka": {
+    "a": "Calendar"
+  },
+  "f.f": {
+    "a": "Gallery"
+  },
+  "f.ko": {
+    "a": "Contact"
+  },
+  "f.kn": {
+    "h1": "Contact us"
+  }
+}

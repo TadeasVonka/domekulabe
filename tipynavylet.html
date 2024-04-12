@@ -29,6 +29,8 @@
         </div>
         <div class="px-4">
           <a
+            data-block="o.u"
+            data-txt="a"
             href="index.html"
             class="block text-xl font-semibold md:text-3xl text-beige"
             >Úvod</a
@@ -36,6 +38,8 @@
         </div>
         <div class="px-4 pt-6 md:pt-9">
           <a
+            data-block="o.tnv"
+            data-txt="a"
             href="tipynavylet.html"
             class="block text-xl font-semibold md:text-3xl text-beige"
             >Tipy na výlet</a
@@ -43,6 +47,8 @@
         </div>
         <div class="px-4 pt-6 md:pt-9">
           <a
+            data-block="o.ka"
+            data-txt="a"
             href="kalendar.html"
             class="block text-xl font-semibold md:text-3xl text-beige"
             >Kalendář</a
@@ -50,6 +56,8 @@
         </div>
         <div class="px-4 pt-6 md:pt-9">
           <a
+            data-block="o.f"
+            data-txt="a"
             href="fotogalerie.html"
             class="block text-xl font-semibold md:text-3xl text-beige"
             >Fotogalerie</a
@@ -57,6 +65,8 @@
         </div>
         <div class="px-4 pt-6 md:pt-9">
           <a
+            data-block="o.ko"
+            data-txt="a"
             href="kontakt.html"
             class="block text-xl font-semibold md:text-3xl text-beige"
             >Kontakt</a
@@ -111,6 +121,8 @@
                 <li class="xl:pr-9 text-balance">
                   <a href="index.html" class="relative"
                     ><span
+                      data-block="h.u"
+                      data-txt="span"
                       class="inline-block transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-300 before:bg-gradient-to-r from-beige via-beige to-beige hover:before:w-full hover:before:opacity-100"
                       >Úvod</span
                     ></a
@@ -119,11 +131,17 @@
                 <li
                   class="xl:pr-9 text-nowrap xl:underline xl:underline-offset-[7px]"
                 >
-                  <a href="tipynavylet.html"> <span>Tipy na výlet</span></a>
+                  <a href="tipynavylet.html">
+                    <span data-block="h.tnv" data-txt="span"
+                      >Tipy na výlet</span
+                    ></a
+                  >
                 </li>
                 <li class="xl:pr-9">
                   <a href="kalendar.html" class="relative"
                     ><span
+                      data-block="h.ka"
+                      data-txt="span"
                       class="inline-block transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-300 before:bg-gradient-to-r from-beige via-beige to-beige hover:before:w-full hover:before:opacity-100"
                       >Kalendář</span
                     ></a
@@ -132,6 +150,8 @@
                 <li class="xl:pr-9">
                   <a href="fotogalerie.html" class="relative"
                     ><span
+                      data-block="h.f"
+                      data-txt="span"
                       class="inline-block transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-300 before:bg-gradient-to-r from-beige via-beige to-beige hover:before:w-full hover:before:opacity-100"
                       >Fotogalerie</span
                     ></a
@@ -140,6 +160,8 @@
                 <li class="xl:pr-9">
                   <a href="kontakt.html" class="relative">
                     <span
+                      data-block="h.ko"
+                      data-txt="span"
                       class="inline-block transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-300 before:bg-gradient-to-r from-beige via-beige to-beige hover:before:w-full hover:before:opacity-100"
                       >Kontakt</span
                     >
@@ -149,14 +171,16 @@
             </div>
           </nav>
           <img
-            class="w-5 h-4 md:w-8 md:h-6 lg:w-11 lg:h-8 lg:mr-5"
+            class="w-5 h-4 cursor-pointer md:w-8 md:h-6 btn-lang lg:w-11 lg:h-8 lg:mr-5"
             src="obrazky/cz_flag.svg"
             alt="Domek U Labe - FlagofCZ"
+            data-lang="cz"
           />
           <img
-            class="w-5 h-4 md:w-6 md:h-6 lg:w-11 lg:h-8"
+            class="w-5 h-4 cursor-pointer md:w-6 md:h-6 btn-lang lg:w-11 lg:h-8"
             src="obrazky/gb_flag.svg"
             alt="Domek U Labe - FlagofUK"
+            data-lang="en"
           />
           <img
             class="block w-5 h-4 cursor-pointer md:w-8 md:h-6 lg:w-11 lg:h-8 xl:hidden"
@@ -175,6 +199,8 @@
       <div class="py-4 md:py-6 2xl:py-14 lg:py-14">
         <h1
           class="text-xl font-semibold text-center md:text-3xl 2xl:text-5xl lg:text-[40px] text-beige"
+          data-block="t.tnv"
+          data-txt="h1"
         >
           Tipy na výlet
         </h1>
@@ -196,6 +222,8 @@
             <div>
               <p
                 class="pt-2 text-xs md:pt-3 xl:pt-6 md:text-base text-beige xl:text-2xl"
+                data-block="t.dknl"
+                data-txt="p"
               >
                 Starobylé věnné město českých královen, Dvůr Králové nad
                 Labem, se rozprostírá v malebném údolí horního toku řeky Labe.
@@ -223,12 +251,16 @@
           >
             <h1
               class="pt-4 text-xl font-black xl:text-left md:pt-0 md:text-3xl md:text-right lg:text-4xl xl:max-w-[573px]"
+              data-block="t.betlem"
+              data-txt="h1"
             >
               Naučná stezka Půjdem spolu do Betléma
             </h1>
             <div>
               <p
                 class="pt-2 text-xs md:pt-3 xl:pt-6 text-beige md:text-right xl:text-left md:text-base xl:text-2xl"
+                data-block="t.betlem"
+                data-txt="p"
               >
                 Naučná stezka Půjdem spolu do Betléma spojuje významnou barokní
                 památku Hospitál Kuks s Braunovým Betlémem. Trasa je dlouhá 7 km
@@ -252,6 +284,8 @@
         >
           <h1
             class="text-base xl:-translate-y-[100px] 2xl:-translate-y-[147px] 2xl:-translate-x-px xl:text-2xl xl:font-medium md:font-black text-left md:max-w-[282px] lg:min-w-[405px] xl:h-[28px] xl:min-w-[228px] md:text-3xl md:text-right lg:pl-36 xl:pl-0"
+            data-block="t.dstezky"
+            data-txt="h1"
           >
             Další naučné stezky:
           </h1>
@@ -298,14 +332,14 @@
             <div
               class="pt-2 text-xs md:pt-3 xl:pt-6 md:text-base text-beige xl:text-2xl"
             >
-              <p>
+              <p data-block="t.kuks" data-txt="p">
                 Břehy života a smrti - pozůstatky bývalých barokních lázní a
                 majestátní Hospitál, oddělené Labem coby bájnou řekou Styx. To
                 je ve zkratce Kuks, dílo hraběte Františka Antonína Šporka a
                 nejlepších umělců tehdejší doby v čele s Matyášem Bernardem
                 Braunem.
               </p>
-              <p class="pt-2 md:pt-2">
+              <p class="pt-2 md:pt-2" data-block="t.kuks" data-txt="p2">
                 Do Kuksu se dostanete buď na kole anebo pěšky přímo stezkou před
                 domem. Trasa na kole trvá 6minut a je dlouhá 1,5 km. Po cestě se
                 určitě zastavte v lomu sv. Klimenta.
@@ -329,12 +363,16 @@
           >
             <h1
               class="text-xl font-black md:pt-0 md:text-3xl xl:text-left md:text-right lg:text-4xl xl:max-w-[573px]"
+              data-block="t.prehrada"
+              data-txt="h1"
             >
-              Les Království
+              Přehrada Les Království
             </h1>
             <div>
               <p
                 class="pt-2 text-xs md:pt-3 xl:pt-6 xl:text-left text-beige md:text-right md:text-base xl:text-2xl"
+                data-block="t.prehrada"
+                data-txt="p"
               >
                 Vypadá jako zámek, ale skutečnost je daleko prozaičtější.
                 Přehrada Les Království je vystavěna v pseudogotickém stylu a
@@ -361,12 +399,16 @@
           >
             <h1
               class="text-xl font-black md:text-3xl lg:text-4xl md:max-w-[282px] xl:max-w-[573px]"
+              data-block="t.safari"
+              data-txt="h1"
             >
               Safari Park Dvůr Králové
             </h1>
             <div>
               <p
                 class="pt-2 text-xs md:pt-3 xl:pt-6 md:text-base text-beige xl:text-2xl"
+                data-block="t.safari"
+                data-txt="p"
               >
                 Kus Afriky v Podkrkonoší. Prohlédněte si na vlastní oči desítky
                 druhů exotických zvířat a projeďte se i vlastním autem africkým
@@ -392,12 +434,16 @@
           >
             <h1
               class="text-xl font-black md:pt-0 md:text-3xl xl:text-left md:text-right lg:text-4xl xl:max-w-[573px]"
+              data-block="t.gallery"
+              data-txt="h1"
             >
               Výstavní galerie minerálů
             </h1>
             <div>
               <p
                 class="pt-2 text-xs md:pt-3 xl:pt-6 text-beige xl:text-left md:text-right md:text-base xl:text-2xl"
+                data-block="t.gallery"
+                data-txt="p"
               >
                 Pro všechny příznivce minerálů a drahých kamenů je zde Výstavní
                 galerie minerálů – muzeum ve Dvoře Králové nad Labem. Autem je
@@ -423,12 +469,16 @@
           >
             <h1
               class="text-xl font-black md:text-3xl lg:text-4xl md:max-w-[282px] xl:max-w-[573px]"
+              data-block="t.zirec"
+              data-txt="h1"
             >
               Barokní areál Žireč
             </h1>
             <div>
               <p
                 class="pt-2 text-xs md:pt-3 xl:pt-6 md:text-base text-beige xl:text-2xl"
+                data-block="t.zirec"
+                data-txt="p"
               >
                 Nenápadná vesnička Žireč ukrývá barokní sídlo jezuitů, ve kterém
                 se dnes můžete zaposlouchat do zvuků unikátní zvonkohry,
@@ -456,12 +506,16 @@
           >
             <h1
               class="text-xl font-black md:text-3xl xl:text-left md:text-right lg:text-4xl"
+              data-block="t.josefov"
+              data-txt="h1"
             >
               Pevnost Josefov
             </h1>
             <div>
               <p
                 class="pt-2 text-xs md:pt-3 xl:pt-6 xl:text-left text-beige md:text-right md:text-base xl:text-2xl"
+                data-block="t.josefov"
+                data-txt="p"
               >
                 Barokní pevnost byla vybudována proti vpádu Prusů, bohužel jim v
                 tom ale nezabránila. Vlastně nikdy ani nebojovala. Prusové ji
@@ -489,15 +543,35 @@
         <div
           class="flex flex-col xl:flex-row xl:gap-6 xl:pr-0 justify-center text-xl font-bold text-center pt-14 md:pt-0 md:pr-[11.5px] leading-[23px] lg:pr-[134.5px]"
         >
-          <a href="index.html">Úvod</a>
+          <a href="index.html" data-block="f.u" data-txt="a">Úvod</a>
           <a
             class="pt-6 xl:pt-0 md:min-w-[361px] xl:min-w-max"
             href="tipynavylet.html"
+            data-block="f.tnv"
+            data-txt="a"
             >Tipy na výlet</a
           >
-          <a class="pt-6 xl:pt-0" href="kalendar.html">Kalendář</a>
-          <a class="pt-6 xl:pt-0" href="fotogalerie.html">Fotogalerie</a>
-          <a class="pt-6 xl:pt-0" href="kontakt.html">Kontakt</a>
+          <a
+            class="pt-6 xl:pt-0"
+            href="kalendar.html"
+            data-block="f.ka"
+            data-txt="a"
+            >Kalendář</a
+          >
+          <a
+            class="pt-6 xl:pt-0"
+            href="fotogalerie.html"
+            data-block="f.f"
+            data-txt="a"
+            >Fotogalerie</a
+          >
+          <a
+            class="pt-6 xl:pt-0"
+            href="kontakt.html"
+            data-block="f.ko"
+            data-txt="a"
+            >Kontakt</a
+          >
         </div>
 
         <!-- Beige line-->
@@ -509,7 +583,13 @@
           class="text-center pt-14 md:pt-[0px] md:pl-[11.5px] lg:pl-[134.5px] md:max-h-[189px] pb-14 md:pb-0 xl:pl-0 xl:flex xl:flex-row-reverse xl:justify-center xl:max-w-[1240px] xl:gap-[203px] 2xl:gap-[358px] 2xl:justify-center"
         >
           <div class="xl:min-w-[361px] xl:text-right">
-            <h1 class="text-xl font-bold leading-[23px]">Kontaktujte nás</h1>
+            <h1
+              class="text-xl font-bold leading-[23px]"
+              data-block="f.kn"
+              data-txt="h1"
+            >
+              Kontaktujte nás
+            </h1>
             <div class="flex justify-center xl:justify-end">
               <hr class="h-px my-[11.5px] border-0 w-14 bg-beige" />
             </div>
@@ -575,5 +655,6 @@
       </section>
     </footer>
     <script src="add.js"></script>
+    <script src="lang.js"></script>
   </body>
 </html>

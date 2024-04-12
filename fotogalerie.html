@@ -31,6 +31,8 @@
         </div>
         <div class="px-4">
           <a
+            data-block="o.u"
+            data-txt="a"
             href="index.html"
             class="block text-xl font-semibold md:text-3xl text-beige"
             >Úvod</a
@@ -38,6 +40,8 @@
         </div>
         <div class="px-4 pt-6 md:pt-9">
           <a
+            data-block="o.tnv"
+            data-txt="a"
             href="tipynavylet.html"
             class="block text-xl font-semibold md:text-3xl text-beige"
             >Tipy na výlet</a
@@ -45,6 +49,8 @@
         </div>
         <div class="px-4 pt-6 md:pt-9">
           <a
+            data-block="o.ka"
+            data-txt="a"
             href="kalendar.html"
             class="block text-xl font-semibold md:text-3xl text-beige"
             >Kalendář</a
@@ -52,6 +58,8 @@
         </div>
         <div class="px-4 pt-6 md:pt-9">
           <a
+            data-block="o.f"
+            data-txt="a"
             href="fotogalerie.html"
             class="block text-xl font-semibold md:text-3xl text-beige"
             >Fotogalerie</a
@@ -59,6 +67,8 @@
         </div>
         <div class="px-4 pt-6 md:pt-9">
           <a
+            data-block="o.ko"
+            data-txt="a"
             href="kontakt.html"
             class="block text-xl font-semibold md:text-3xl text-beige"
             >Kontakt</a
@@ -113,6 +123,8 @@
                 <li class="xl:pr-9 text-balance">
                   <a href="index.html" class="relative"
                     ><span
+                      data-block="h.u"
+                      data-txt="span"
                       class="inline-block transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-300 before:bg-gradient-to-r from-beige via-beige to-beige hover:before:w-full hover:before:opacity-100"
                       >Úvod</span
                     ></a
@@ -121,6 +133,8 @@
                 <li class="xl:pr-9 text-nowrap">
                   <a href="tipynavylet.html" class="relative">
                     <span
+                      data-block="h.tnv"
+                      data-txt="span"
                       class="inline-block transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-300 before:bg-gradient-to-r from-beige via-beige to-beige hover:before:w-full hover:before:opacity-100"
                       >Tipy na výlet</span
                     ></a
@@ -129,17 +143,25 @@
                 <li class="xl:pr-9">
                   <a href="kalendar.html" class="relative"
                     ><span
+                      data-block="h.ka"
+                      data-txt="span"
                       class="inline-block transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-300 before:bg-gradient-to-r from-beige via-beige to-beige hover:before:w-full hover:before:opacity-100"
                       >Kalendář</span
                     ></a
                   >
                 </li>
                 <li class="xl:pr-9 xl:underline xl:underline-offset-[7px]">
-                  <a href="fotogalerie.html"><span>Fotogalerie</span></a>
+                  <a href="fotogalerie.html"
+                    ><span data-block="h.f" data-txt="span"
+                      >Fotogalerie</span
+                    ></a
+                  >
                 </li>
                 <li class="xl:pr-9">
                   <a href="kontakt.html" class="relative">
                     <span
+                      data-block="h.ko"
+                      data-txt="span"
                       class="inline-block transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-300 before:bg-gradient-to-r from-beige via-beige to-beige hover:before:w-full hover:before:opacity-100"
                       >Kontakt</span
                     >
@@ -149,14 +171,16 @@
             </div>
           </nav>
           <img
-            class="w-5 h-4 md:w-8 md:h-6 lg:w-11 lg:h-8 lg:mr-5"
+            class="w-5 h-4 cursor-pointer md:w-8 md:h-6 btn-lang lg:w-11 lg:h-8 lg:mr-5"
             src="obrazky/cz_flag.svg"
-            alt="FlagofCZ"
+            alt="Domek U Labe - FlagofCZ"
+            data-lang="cz"
           />
           <img
-            class="w-5 h-4 md:w-6 md:h-6 lg:w-11 lg:h-8"
+            class="w-5 h-4 cursor-pointer md:w-6 md:h-6 btn-lang lg:w-11 lg:h-8"
             src="obrazky/gb_flag.svg"
-            alt="FlagofUK"
+            alt="Domek U Labe - FlagofUK"
+            data-lang="en"
           />
           <img
             class="block w-5 h-4 cursor-pointer md:w-8 md:h-6 lg:w-11 lg:h-8 xl:hidden"
@@ -176,6 +200,8 @@
       <div class="py-4 text-center md:py-6 2xl:py-14 lg:py-14">
         <h1
           class="text-xl font-semibold text-center md:text-3xl 2xl:text-5xl lg:text-[40px] text-beige"
+          data-block="fo.f"
+          data-txt="h1"
         >
           Fotogalerie
         </h1>
@@ -299,15 +325,35 @@
         <div
           class="flex flex-col xl:flex-row xl:gap-6 xl:pr-0 justify-center text-xl font-bold text-center pt-14 md:pt-0 md:pr-[11.5px] leading-[23px] lg:pr-[134.5px]"
         >
-          <a href="index.html">Úvod</a>
+          <a href="index.html" data-block="f.u" data-txt="a">Úvod</a>
           <a
+            data-block="f.tnv"
+            data-txt="a"
             class="pt-6 xl:pt-0 md:min-w-[361px] xl:min-w-max"
             href="tipynavylet.html"
             >Tipy na výlet</a
           >
-          <a class="pt-6 xl:pt-0" href="kalendar.html">Kalendář</a>
-          <a class="pt-6 xl:pt-0" href="fotogalerie.html">Fotogalerie</a>
-          <a class="pt-6 xl:pt-0" href="kontakt.html">Kontakt</a>
+          <a
+            class="pt-6 xl:pt-0"
+            href="kalendar.html"
+            data-block="f.ka"
+            data-txt="a"
+            >Kalendář</a
+          >
+          <a
+            class="pt-6 xl:pt-0"
+            href="fotogalerie.html"
+            data-block="f.f"
+            data-txt="a"
+            >Fotogalerie</a
+          >
+          <a
+            class="pt-6 xl:pt-0"
+            href="kontakt.html"
+            data-block="f.ko"
+            data-txt="a"
+            >Kontakt</a
+          >
         </div>
 
         <!-- Beige line-->
@@ -319,7 +365,13 @@
           class="text-center pt-14 md:pt-[0px] md:pl-[11.5px] lg:pl-[134.5px] md:max-h-[189px] pb-14 md:pb-0 xl:pl-0 xl:flex xl:flex-row-reverse xl:justify-center xl:max-w-[1240px] xl:gap-[203px] 2xl:gap-[358px] 2xl:justify-center"
         >
           <div class="xl:min-w-[361px] xl:text-right">
-            <h1 class="text-xl font-bold leading-[23px]">Kontaktujte nás</h1>
+            <h1
+              class="text-xl font-bold leading-[23px]"
+              data-block="f.kn"
+              data-txt="h1"
+            >
+              Kontaktujte nás
+            </h1>
             <div class="flex justify-center xl:justify-end">
               <hr class="h-px my-[11.5px] border-0 w-14 bg-beige" />
             </div>
@@ -386,5 +438,6 @@
     </footer>
 
     <script src="add.js"></script>
+    <script src="lang.js"></script>
   </body>
 </html>
