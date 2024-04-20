@@ -602,6 +602,10 @@ video {
   margin-top: 0.15rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .block {
   display: block;
 }
@@ -1807,6 +1811,14 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .xl\:mt-14 {
     margin-top: 3.5rem;
+  }
+
+  .xl\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .xl\:mt-0 {
+    margin-top: 0px;
   }
 
   .xl\:block {
