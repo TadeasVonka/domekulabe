@@ -14,6 +14,9 @@ module.exports = {
       maxWidth: {
         1440: "1440px",
       },
+      screens: {
+        "2xl": "1550px",
+      },
       margin: {
         22: "22px",
       },
@@ -29,7 +32,7 @@ module.exports = {
         Roboto: ["Roboto", "sans-serif"],
       },
       backgroundImage: {
-        domek: "url('obrazky/barakk.png')",
+        domek: "url('obrazky/barak.png')",
       },
     },
   },

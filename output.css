@@ -646,6 +646,14 @@ video {
   height: 1px;
 }
 
+.h-\[232px\] {
+  height: 232px;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
 .max-h-\[240px\] {
   max-height: 240px;
 }
@@ -847,7 +855,7 @@ video {
 }
 
 .bg-domek {
-  background-image: url('obrazky/barakk.png');
+  background-image: url('obrazky/barak.png');
 }
 
 .from-beige {
@@ -1276,10 +1284,6 @@ textarea:not(:placeholder-shown) + .input-label {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:cursor-pointer:hover {
-  cursor: pointer;
 }
 
 .hover\:before\:w-full:hover::before {
@@ -2088,7 +2092,7 @@ textarea:not(:placeholder-shown) + .input-label {
   }
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 1550px) {
   .\32xl\:ml-0 {
     margin-left: 0px;
   }
