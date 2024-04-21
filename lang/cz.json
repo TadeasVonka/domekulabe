@@ -97,7 +97,8 @@
     "telefon": "Telefon: +420 737 015 382 - Petra Fejglová"
   },
   "k.form": {
-    "h1": "Kontaktní formulář",
+    "h1": "Kontaktujte nás",
+    "p": "Vyplňte níže uvedený formulář a my se vám co nejdříve ozveme.",
     "jmeno": "Vaše jméno",
     "jmenoprazdne": "*Jméno nemůže být prázdné",
     "email": "E-mailová adresa",

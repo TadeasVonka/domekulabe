@@ -598,12 +598,12 @@ video {
   margin-inline-end: 6px;
 }
 
-.mt-\[0\.15rem\] {
-  margin-top: 0.15rem;
-}
-
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-\[0\.15rem\] {
+  margin-top: 0.15rem;
 }
 
 .block {
@@ -648,14 +648,6 @@ video {
 
 .h-px {
   height: 1px;
-}
-
-.h-\[232px\] {
-  height: 232px;
-}
-
-.h-80 {
-  height: 20rem;
 }
 
 .max-h-\[240px\] {
@@ -985,6 +977,10 @@ video {
 
 .pt-\[0\.15rem\] {
   padding-top: 0.15rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
 }
 
 .text-left {
@@ -1438,6 +1434,10 @@ textarea:not(:placeholder-shown) + .input-label {
          column-gap: 0px;
   }
 
+  .md\:text-balance {
+    text-wrap: balance;
+  }
+
   .md\:border-0 {
     border-width: 0px;
   }
@@ -1529,6 +1529,14 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-top: 0px;
   }
 
+  .md\:pb-3 {
+    padding-bottom: 0.75rem;
+  }
+
+  .md\:pt-6 {
+    padding-top: 1.5rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -1582,6 +1590,10 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .md\:font-semibold {
     font-weight: 600;
+  }
+
+  .md\:font-normal {
+    font-weight: 400;
   }
 }
 
@@ -1748,6 +1760,10 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-top: 2.25rem;
   }
 
+  .lg\:pl-8 {
+    padding-left: 2rem;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -1809,16 +1825,12 @@ textarea:not(:placeholder-shown) + .input-label {
     margin-right: 0px;
   }
 
-  .xl\:mt-14 {
-    margin-top: 3.5rem;
-  }
-
-  .xl\:mt-6 {
-    margin-top: 1.5rem;
-  }
-
   .xl\:mt-0 {
     margin-top: 0px;
+  }
+
+  .xl\:mt-14 {
+    margin-top: 3.5rem;
   }
 
   .xl\:block {
@@ -2044,6 +2056,22 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-top: 1.5rem;
   }
 
+  .xl\:pl-14 {
+    padding-left: 3.5rem;
+  }
+
+  .xl\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
+  .xl\:pb-4 {
+    padding-bottom: 1rem;
+  }
+
+  .xl\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
   .xl\:text-left {
     text-align: left;
   }
@@ -2080,6 +2108,11 @@ textarea:not(:placeholder-shown) + .input-label {
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
+  }
+
+  .xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .xl\:font-medium {
@@ -2203,6 +2236,10 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .\32xl\:pr-6 {
     padding-right: 1.5rem;
+  }
+
+  .\32xl\:pl-14 {
+    padding-left: 3.5rem;
   }
 
   .\32xl\:text-5xl {
