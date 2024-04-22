@@ -106,7 +106,7 @@
     "telefon": "Phone",
     "telefonprazdne": "*Phone cannot be blank",
     "zprava": "Message",
-    "zpravaprazdne": "*Message address cannot be blank",
+    "zpravaprazdne": "*Message cannot be blank",
     "kopie": "Send me a copy via email.",
     "button": "Send"
   },
