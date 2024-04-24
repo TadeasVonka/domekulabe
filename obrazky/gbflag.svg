@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Vrstva_2" data-name="Vrstva 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 571.43">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #0a17a7;
+      }
+
+      .cls-3, .cls-6 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke: #db1f35;
+        stroke-linecap: round;
+        stroke-miterlimit: 114.29;
+        stroke-width: 19.05px;
+      }
+
+      .cls-4 {
+        fill: #e6273e;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-8 {
+        mask: url(#mask);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-3" width="800" height="571.43" rx="57.14" ry="57.14"/>
+    </clipPath>
+    <mask id="mask" x="-119.17" y="-66.67" width="1024.88" height="713.63" maskUnits="userSpaceOnUse">
+      <g id="mask0_503_2952" data-name="mask0 503 2952">
+        <rect class="cls-5" width="800" height="571.43" rx="57.14" ry="57.14"/>
+      </g>
+    </mask>
+  </defs>
+  <g id="Vrstva_1-2" data-name="Vrstva 1">
+    <g class="cls-7">
+      <g>
+        <rect class="cls-5" width="800" height="571.43" rx="57.14" ry="57.14"/>
+        <g class="cls-8">
+          <g>
+            <rect class="cls-2" width="800" height="571.43"/>
+            <path class="cls-1" d="M-36.64-54.76l341.4,230.28V-38.1h190.48v213.62L836.64-54.76l42.61,63.16-269.93,182.07h190.68v190.48h-190.68l269.93,182.07-42.61,63.17-341.4-230.28v213.62h-190.48v-213.62L-36.64,626.19l-42.61-63.17,269.93-182.07H0v-190.48h190.68L-79.25,8.41l42.61-63.16Z"/>
+            <path class="cls-6" d="M533.37,180.92L895.24-57.14"/>
+            <path class="cls-6" d="M571.79,391.36l324.39,218.65"/>
+            <path class="cls-6" d="M228.73,180.3L-109.64-47.74"/>
+            <path class="cls-6" d="M265.43,388.71l-375.07,248.73"/>
+            <path class="cls-4" d="M0,342.86h342.86v228.57h114.29v-228.57h342.86v-114.29h-342.86V0h-114.29v228.57H0v114.29Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

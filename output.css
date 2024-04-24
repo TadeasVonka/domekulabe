@@ -1625,16 +1625,16 @@ textarea:not(:placeholder-shown) + .input-label {
     height: 2.5rem;
   }
 
+  .lg\:h-12 {
+    height: 3rem;
+  }
+
   .lg\:h-8 {
     height: 2rem;
   }
 
   .lg\:h-\[336px\] {
     height: 336px;
-  }
-
-  .lg\:h-12 {
-    height: 3rem;
   }
 
   .lg\:max-h-\[526px\] {
@@ -1649,6 +1649,10 @@ textarea:not(:placeholder-shown) + .input-label {
     width: 2.75rem;
   }
 
+  .lg\:w-12 {
+    width: 3rem;
+  }
+
   .lg\:w-13 {
     width: 3.25rem;
   }
@@ -1659,10 +1663,6 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .lg\:w-\[484px\] {
     width: 484px;
-  }
-
-  .lg\:w-12 {
-    width: 3rem;
   }
 
   .lg\:min-w-\[338px\] {
@@ -1713,24 +1713,16 @@ textarea:not(:placeholder-shown) + .input-label {
     gap: 1.5rem;
   }
 
-  .lg\:gap-\[402px\] {
-    gap: 402px;
-  }
-
-  .lg\:gap-5 {
-    gap: 1.25rem;
-  }
-
   .lg\:gap-8 {
     gap: 2rem;
   }
 
-  .lg\:gap-\[390px\] {
-    gap: 390px;
-  }
-
   .lg\:gap-\[378px\] {
     gap: 378px;
+  }
+
+  .lg\:gap-\[402px\] {
+    gap: 402px;
   }
 
   .lg\:gap-x-\[180px\] {
@@ -1771,6 +1763,10 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-left: 134.5px;
   }
 
+  .lg\:pr-5 {
+    padding-right: 1.25rem;
+  }
+
   .lg\:pr-\[134\.5px\] {
     padding-right: 134.5px;
   }
@@ -1785,10 +1781,6 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .lg\:pt-9 {
     padding-top: 2.25rem;
-  }
-
-  .lg\:pr-5 {
-    padding-right: 1.25rem;
   }
 
   .lg\:text-left {
@@ -1855,6 +1847,14 @@ textarea:not(:placeholder-shown) + .input-label {
     margin-top: 3.5rem;
   }
 
+  .xl\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
+  .xl\:mr-5 {
+    margin-right: 1.25rem;
+  }
+
   .xl\:block {
     display: block;
   }
@@ -1867,8 +1867,16 @@ textarea:not(:placeholder-shown) + .input-label {
     display: none;
   }
 
+  .xl\:h-10 {
+    height: 2.5rem;
+  }
+
   .xl\:h-4 {
     height: 1rem;
+  }
+
+  .xl\:h-8 {
+    height: 2rem;
   }
 
   .xl\:h-96 {
@@ -1899,12 +1907,12 @@ textarea:not(:placeholder-shown) + .input-label {
     height: 1px;
   }
 
-  .xl\:h-8 {
-    height: 2rem;
+  .xl\:h-7 {
+    height: 1.75rem;
   }
 
-  .xl\:h-10 {
-    height: 2.5rem;
+  .xl\:h-6 {
+    height: 1.5rem;
   }
 
   .xl\:max-h-none {
@@ -1913,6 +1921,14 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .xl\:min-h-screen {
     min-height: 100vh;
+  }
+
+  .xl\:w-11 {
+    width: 2.75rem;
+  }
+
+  .xl\:w-13 {
+    width: 3.25rem;
   }
 
   .xl\:w-5 {
@@ -1939,12 +1955,20 @@ textarea:not(:placeholder-shown) + .input-label {
     width: 608px;
   }
 
-  .xl\:w-11 {
-    width: 2.75rem;
+  .xl\:w-9 {
+    width: 2.25rem;
   }
 
-  .xl\:w-13 {
-    width: 3.25rem;
+  .xl\:w-\[92px\] {
+    width: 92px;
+  }
+
+  .xl\:w-8 {
+    width: 2rem;
+  }
+
+  .xl\:w-\[84px\] {
+    width: 84px;
   }
 
   .xl\:min-w-\[112px\] {
@@ -1962,6 +1986,10 @@ textarea:not(:placeholder-shown) + .input-label {
   .xl\:min-w-max {
     min-width: -moz-max-content;
     min-width: max-content;
+  }
+
+  .xl\:min-w-\[226px\] {
+    min-width: 226px;
   }
 
   .xl\:max-w-\[1240px\] {
@@ -2023,6 +2051,10 @@ textarea:not(:placeholder-shown) + .input-label {
     justify-content: center;
   }
 
+  .xl\:gap-0 {
+    gap: 0px;
+  }
+
   .xl\:gap-6 {
     gap: 1.5rem;
   }
@@ -2033,6 +2065,54 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .xl\:gap-\[203px\] {
     gap: 203px;
+  }
+
+  .xl\:gap-\[128px\] {
+    gap: 128px;
+  }
+
+  .xl\:gap-\[108px\] {
+    gap: 108px;
+  }
+
+  .xl\:gap-\[178px\] {
+    gap: 178px;
+  }
+
+  .xl\:gap-\[181px\] {
+    gap: 181px;
+  }
+
+  .xl\:gap-\[181\.8px\] {
+    gap: 181.8px;
+  }
+
+  .xl\:gap-\[181\.08px\] {
+    gap: 181.08px;
+  }
+
+  .xl\:gap-\[181\2c 08px\] {
+    gap: 181,08px;
+  }
+
+  .xl\:gap-\[281\.08px\] {
+    gap: 281.08px;
+  }
+
+  .xl\:gap-5 {
+    gap: 1.25rem;
+  }
+
+  .xl\:gap-\[278\.08px\] {
+    gap: 278.08px;
+  }
+
+  .xl\:gap-\[241\.08px\] {
+    gap: 241.08px;
+  }
+
+  .xl\:gap-\[249\.08px\] {
+    gap: 249.08px;
   }
 
   .xl\:gap-x-14 {
@@ -2052,6 +2132,11 @@ textarea:not(:placeholder-shown) + .input-label {
   .xl\:py-14 {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
+  }
+
+  .xl\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .xl\:pb-14 {
@@ -2106,6 +2191,10 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-top: 1.5rem;
   }
 
+  .xl\:pl-5 {
+    padding-left: 1.25rem;
+  }
+
   .xl\:text-left {
     text-align: left;
   }
@@ -2142,6 +2231,10 @@ textarea:not(:placeholder-shown) + .input-label {
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
+  }
+
+  .xl\:text-\[32px\] {
+    font-size: 32px;
   }
 
   .xl\:font-medium {
@@ -2244,6 +2337,22 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .\32xl\:gap-\[416px\] {
     gap: 416px;
+  }
+
+  .\32xl\:gap-\[516px\] {
+    gap: 516px;
+  }
+
+  .\32xl\:gap-\[536\.08px\] {
+    gap: 536.08px;
+  }
+
+  .\32xl\:gap-\[551\.08px\] {
+    gap: 551.08px;
+  }
+
+  .\32xl\:gap-\[559\.08px\] {
+    gap: 559.08px;
   }
 
   .\32xl\:py-14 {
