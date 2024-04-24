@@ -634,6 +634,10 @@ video {
   height: 1rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-\[1\.125rem\] {
   height: 1.125rem;
 }
@@ -680,6 +684,10 @@ video {
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .w-\[1\.125rem\] {
@@ -777,6 +785,10 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-\[42px\] {
+  gap: 42px;
 }
 
 .gap-\[58px\] {
@@ -915,6 +927,10 @@ video {
   padding-bottom: 0.32rem;
 }
 
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
 .pb-14 {
   padding-bottom: 3.5rem;
 }
@@ -977,10 +993,6 @@ video {
 
 .pt-\[0\.15rem\] {
   padding-top: 0.15rem;
-}
-
-.pb-1 {
-  padding-bottom: 0.25rem;
 }
 
 .text-left {
@@ -1345,6 +1357,10 @@ textarea:not(:placeholder-shown) + .input-label {
     height: 18rem;
   }
 
+  .md\:h-8 {
+    height: 2rem;
+  }
+
   .md\:h-\[211px\] {
     height: 211px;
   }
@@ -1429,13 +1445,13 @@ textarea:not(:placeholder-shown) + .input-label {
     gap: 20rem;
   }
 
+  .md\:gap-\[316px\] {
+    gap: 316px;
+  }
+
   .md\:gap-x-0 {
     -moz-column-gap: 0px;
          column-gap: 0px;
-  }
-
-  .md\:text-balance {
-    text-wrap: balance;
   }
 
   .md\:border-0 {
@@ -1459,6 +1475,10 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .md\:pb-0 {
     padding-bottom: 0px;
+  }
+
+  .md\:pb-3 {
+    padding-bottom: 0.75rem;
   }
 
   .md\:pb-6 {
@@ -1521,20 +1541,16 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-top: 1rem;
   }
 
+  .md\:pt-6 {
+    padding-top: 1.5rem;
+  }
+
   .md\:pt-9 {
     padding-top: 2.25rem;
   }
 
   .md\:pt-\[0px\] {
     padding-top: 0px;
-  }
-
-  .md\:pb-3 {
-    padding-bottom: 0.75rem;
-  }
-
-  .md\:pt-6 {
-    padding-top: 1.5rem;
   }
 
   .md\:text-left {
@@ -1569,11 +1585,6 @@ textarea:not(:placeholder-shown) + .input-label {
     line-height: 1.5rem;
   }
 
-  .md\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -1591,17 +1602,9 @@ textarea:not(:placeholder-shown) + .input-label {
   .md\:font-semibold {
     font-weight: 600;
   }
-
-  .md\:font-normal {
-    font-weight: 400;
-  }
 }
 
 @media (min-width: 1024px) {
-  .lg\:ml-8 {
-    margin-left: 2rem;
-  }
-
   .lg\:mr-5 {
     margin-right: 1.25rem;
   }
@@ -1630,6 +1633,10 @@ textarea:not(:placeholder-shown) + .input-label {
     height: 336px;
   }
 
+  .lg\:h-12 {
+    height: 3rem;
+  }
+
   .lg\:max-h-\[526px\] {
     max-height: 526px;
   }
@@ -1652,6 +1659,10 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .lg\:w-\[484px\] {
     width: 484px;
+  }
+
+  .lg\:w-12 {
+    width: 3rem;
   }
 
   .lg\:min-w-\[338px\] {
@@ -1704,6 +1715,22 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .lg\:gap-\[402px\] {
     gap: 402px;
+  }
+
+  .lg\:gap-5 {
+    gap: 1.25rem;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
+  }
+
+  .lg\:gap-\[390px\] {
+    gap: 390px;
+  }
+
+  .lg\:gap-\[378px\] {
+    gap: 378px;
   }
 
   .lg\:gap-x-\[180px\] {
@@ -1760,8 +1787,8 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-top: 2.25rem;
   }
 
-  .lg\:pl-8 {
-    padding-left: 2rem;
+  .lg\:pr-5 {
+    padding-right: 1.25rem;
   }
 
   .lg\:text-left {
@@ -1796,11 +1823,6 @@ textarea:not(:placeholder-shown) + .input-label {
     line-height: 1.5rem;
   }
 
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -1817,8 +1839,8 @@ textarea:not(:placeholder-shown) + .input-label {
     margin-bottom: 1.5rem;
   }
 
-  .xl\:ml-0 {
-    margin-left: 0px;
+  .xl\:ml-14 {
+    margin-left: 3.5rem;
   }
 
   .xl\:mr-0 {
@@ -1831,10 +1853,6 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .xl\:mt-14 {
     margin-top: 3.5rem;
-  }
-
-  .xl\:ml-14 {
-    margin-left: 3.5rem;
   }
 
   .xl\:block {
@@ -1881,6 +1899,14 @@ textarea:not(:placeholder-shown) + .input-label {
     height: 1px;
   }
 
+  .xl\:h-8 {
+    height: 2rem;
+  }
+
+  .xl\:h-10 {
+    height: 2.5rem;
+  }
+
   .xl\:max-h-none {
     max-height: none;
   }
@@ -1911,6 +1937,14 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .xl\:w-\[608px\] {
     width: 608px;
+  }
+
+  .xl\:w-11 {
+    width: 2.75rem;
+  }
+
+  .xl\:w-13 {
+    width: 3.25rem;
   }
 
   .xl\:min-w-\[112px\] {
@@ -2024,8 +2058,20 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-bottom: 3.5rem;
   }
 
+  .xl\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .xl\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
   .xl\:pl-0 {
     padding-left: 0px;
+  }
+
+  .xl\:pl-14 {
+    padding-left: 3.5rem;
   }
 
   .xl\:pl-8 {
@@ -2058,22 +2104,6 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .xl\:pt-6 {
     padding-top: 1.5rem;
-  }
-
-  .xl\:pl-14 {
-    padding-left: 3.5rem;
-  }
-
-  .xl\:pb-6 {
-    padding-bottom: 1.5rem;
-  }
-
-  .xl\:pb-4 {
-    padding-bottom: 1rem;
-  }
-
-  .xl\:pb-2 {
-    padding-bottom: 0.5rem;
   }
 
   .xl\:text-left {
@@ -2114,11 +2144,6 @@ textarea:not(:placeholder-shown) + .input-label {
     line-height: 1rem;
   }
 
-  .xl\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .xl\:font-medium {
     font-weight: 500;
   }
@@ -2142,10 +2167,6 @@ textarea:not(:placeholder-shown) + .input-label {
 }
 
 @media (min-width: 1550px) {
-  .\32xl\:ml-0 {
-    margin-left: 0px;
-  }
-
   .\32xl\:block {
     display: block;
   }
@@ -2228,18 +2249,6 @@ textarea:not(:placeholder-shown) + .input-label {
   .\32xl\:py-14 {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
-  }
-
-  .\32xl\:pl-8 {
-    padding-left: 2rem;
-  }
-
-  .\32xl\:pl-\[0px\] {
-    padding-left: 0px;
-  }
-
-  .\32xl\:pr-6 {
-    padding-right: 1.5rem;
   }
 
   .\32xl\:pl-14 {
