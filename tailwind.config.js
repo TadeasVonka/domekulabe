@@ -7,6 +7,7 @@ module.exports = {
         beige: "#9E7E44",
         lblack: "#231F20",
         extralblack: "#2E2A2B",
+        wgray: "#F4F5F7",
       },
       width: {
         13: "3.25rem",
@@ -22,6 +23,9 @@ module.exports = {
       },
       height: {
         504: "504px",
+      },
+      dropShadow: {
+        cs: "0 2px 10px rgba(0,0,0,.05)",
       },
       fontSize: {
         xxs: "0.625rem",

@@ -31,6 +31,11 @@
     "a": "Contact"
   },
 
+  "m.txt": {
+    "p": "Accommodation for cyclists, tourists and adventurers: An ideal place for discovering the beauty of the Czech landscape.",
+    "button": "Book now"
+  },
+
   "1.on": {
     "h1": "About us",
     "p": "Welcome to Domek U Labe, where our story begins with the dream of building a relaxing place in the middle of beautiful nature. After a careful renovation of the house, which has kept its original soul while offering modern comfort, we decided to open its doors to all those who want to enjoy an unforgettable stay in the heart of nature, right on the banks of the Elbe River."
@@ -80,6 +85,12 @@
   "t.josefov": {
     "h1": "Josefov Fortress",
     "p": "The Baroque fortress was built against the Prussian invasion, but unfortunately it did not prevent them. In fact, it never even fought back. The Prussians simply bypassed it. Well, too bad for them. You definitely don't make the same mistake and let yourself be guided through the underground passages or take a beautiful walk on the top of the fortification."
+  },
+
+  "p.o": {
+    "h1": "Explore the surroundings of our accommodation",
+    "p": "Are you interested in what is around our accommodation? Check out our tips for interesting trips in the area.",
+    "button": "Explore trips"
   },
 
   "ka.ka": {

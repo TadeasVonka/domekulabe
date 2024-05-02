@@ -31,6 +31,11 @@
     "a": "Kontakt"
   },
 
+  "m.txt": {
+    "p": "Ubytování pro cyklisty, turisty a dobrodruhy: Ideální místo pro objevování krás české krajiny.",
+    "button": "Rezervovat"
+  },
+
   "1.on": {
     "h1": "O nás",
     "p": "Vítáme vás v Domku U Labe, kde náš příběh začíná snem o vybudování pohodového místa uprostřed nádherné přírody. Po pečlivé rekonstrukci domu, který si zachoval svou původní duši a přitom nabízí moderní pohodlí, jsme se rozhodli otevřít dveře pro všechny, kteří si chtějí užít nezapomenutelný pobyt v srdci přírody, hned u břehu řeky Labe."
@@ -109,6 +114,12 @@
     "zpravaprazdne": "*Zpráva nemůže být prázdná",
     "kopie": "Poslat mi kopii prostřednictvím e-mailu.",
     "button": "Odeslat"
+  },
+
+  "p.o": {
+    "h1": "Prozkoumejte okolí našeho ubytování",
+    "p": "Zajímá vás, co je v okolí našeho ubytování? Podívejte se na naše tipy na zajímavé výlety v okolí.",
+    "button": "Prozkoumejte okolí"
   },
 
   "f.u": {

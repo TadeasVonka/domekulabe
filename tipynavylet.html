@@ -90,7 +90,8 @@
     </div>
     <!-- Header: Název, Icony-->
     <header
-      class="py-4 mx-auto md:py-7 xl:py-10 max-w-[320px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-[1240px] 2xl:max-w-[1550px] bg-white"
+      id="myHeader"
+      class="py-4 mx-auto md:py-7 xl:py-7 max-w-[320px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-full 2xl:max-w-full w-full xl:flex xl:justify-center bg-white xl:sticky xl:top-0 transition-all duration-300 z-50"
     >
       <section
         class="gap-[42px] md:gap-[316px] lg:gap-[378px] xl:gap-[249.08px] flex flex-row items-center justify-between flex-nowrap 2xl:gap-[559.08px]"
@@ -203,7 +204,7 @@
       class="w-auto bg-center bg-no-repeat bg-cover bg-domek xl:h-96 min-h-[192px] md:min-h-[288px] lg:min-h-[504px]"
     ></div>
     <main>
-      <div class="py-4 md:py-6 2xl:py-14 lg:py-14">
+      <div class="py-4 md:py-6 2xl:py-14 xl:py-14 lg:py-9">
         <h1
           class="text-xl font-semibold text-center md:text-3xl 2xl:text-5xl lg:text-[40px] text-beige"
           data-block="t.tnv"
@@ -215,11 +216,11 @@
       <!-- Dvůr Králové nad Labem -->
 
       <section
-        class="flex flex-col max-w-[320px] mx-auto md:max-w-[746px] lg:max-w-[992px] pb-4 md:pb-9 xl:pb-14 xl:max-w-[1240px] 2xl:max-w-[1550px]"
+        class="flex flex-col max-w-[320px] mx-auto md:max-w-[746px] lg:max-w-[992px] pb-4 md:pb-6 lg:pb-9 xl:pb-14 xl:max-w-[1240px] 2xl:max-w-[1550px]"
       >
         <div class="md:flex-row-reverse md:flex xl:flex-row-reverse">
           <div
-            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px]"
+            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
           >
             <h1
               class="text-xl font-black md:text-3xl lg:text-4xl md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px]"
@@ -241,9 +242,9 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pr-6 xl:pr-8">
+          <div class="pt-4 md:pt-0 md:pr-6 xl:pr-[67px] 2xl:pr-[115px]">
             <img
-              class="2xl:w-[683px]"
+              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
               src="https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg?t=st=1712844768~exp=1712848368~hmac=ab8a1fd54f5b2bf1277ba6475f2c5f06dc786ac19c7d309e0a38b0fd65fca163&w=1380"
               alt="Domek U Labe - Dvůr Králové nad Labem"
             />
@@ -275,10 +276,10 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pl-6 xl:pl-8">
+          <div class="pt-4 md:pt-0 md:pl-6 lg:pl-6 xl:pl-[67px] 2xl:pl-[115px]">
             <img
-              class="2xl:w-[683px]"
-              src="https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg?t=st=1712844768~exp=1712848368~hmac=ab8a1fd54f5b2bf1277ba6475f2c5f06dc786ac19c7d309e0a38b0fd65fca163&w=1380"
+              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
+              src="obrazky/betlem.webp"
               alt="Domek U Labe - Naučná stezka"
             />
           </div>
@@ -290,14 +291,14 @@
           class="pt-2 text-beige md:flex md:pt-4 xl:pt-0 xl:h-[72px] 2xl:h-6"
         >
           <h1
-            class="text-base xl:-translate-y-[100px] 2xl:-translate-y-[147px] 2xl:-translate-x-px xl:text-2xl xl:font-medium md:font-black text-left md:max-w-[282px] lg:min-w-[405px] xl:h-[28px] xl:min-w-[228px] md:text-3xl md:text-right lg:pl-36 xl:pl-0"
+            class="text-base xl:-translate-y-[114px] 2xl:-translate-y-[147px] 2xl:-translate-x-px xl:text-2xl xl:font-medium md:font-black text-left md:max-w-[282px] lg:min-w-[405px] xl:h-[28px] xl:min-w-[228px] md:text-3xl md:text-right lg:pl-36 xl:pl-0"
             data-block="t.dstezky"
             data-txt="h1"
           >
             Další naučné stezky:
           </h1>
           <div
-            class="flex flex-row xl:-translate-x-60 xl:-translate-y-10 2xl:-translate-x-59 2xl:-translate-y-[91px] lg:justify-around md:justify-end pt-2 md:pt-0 md:max-w-[464px] lg:max-w-[710px] xl:max-w-[px] gap-x-[25px] md:pl-9 lg:gap-x-[180px] md:gap-x-0 xl:gap-x-14"
+            class="flex flex-row xl:-translate-x-60 xl:-translate-y-16 2xl:-translate-x-59 2xl:-translate-y-[91px] lg:justify-around md:justify-end pt-2 md:pt-0 md:max-w-[464px] lg:max-w-[710px] xl:max-w-[px] gap-x-[25px] md:pl-9 lg:gap-x-[180px] md:gap-x-0 xl:gap-x-14"
           >
             <div class="pl-[7px] md:pl-0 lg:pl-0">
               <ul
@@ -329,7 +330,7 @@
 
         <div class="pt-4 md:flex-row-reverse md:flex md:pt-9 xl:pt-14">
           <div
-            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px]"
+            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
           >
             <h1
               class="text-xl font-black md:text-3xl lg:text-4xl md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px]"
@@ -353,10 +354,10 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pr-6 xl:pr-8">
+          <div class="pt-4 md:pt-0 md:pr-6 xl:pr-[67px] 2xl:pr-[115px]">
             <img
-              class="2xl:w-[683px]"
-              src="https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg?t=st=1712844768~exp=1712848368~hmac=ab8a1fd54f5b2bf1277ba6475f2c5f06dc786ac19c7d309e0a38b0fd65fca163&w=1380"
+              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
+              src="obrazky/kuks.webp"
               alt="Domek U Labe - Kuks"
             />
           </div>
@@ -366,7 +367,7 @@
 
         <div class="pt-4 md:flex-row md:flex md:pt-9 xl:pt-14">
           <div
-            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px]"
+            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
           >
             <h1
               class="text-xl font-black md:pt-0 md:text-3xl xl:text-left md:text-right lg:text-4xl xl:max-w-[573px]"
@@ -389,10 +390,10 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pl-6 xl:pl-8">
+          <div class="pt-4 md:pt-0 md:pl-6 xl:pl-[67px] 2xl:pl-[115px]">
             <img
-              class="2xl:w-[683px]"
-              src="https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg?t=st=1712844768~exp=1712848368~hmac=ab8a1fd54f5b2bf1277ba6475f2c5f06dc786ac19c7d309e0a38b0fd65fca163&w=1380"
+              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
+              src="obrazky/prehrada.webp"
               alt="Domek U Labe - Les Království"
             />
           </div>
@@ -402,7 +403,7 @@
 
         <div class="pt-4 md:pt-9 md:flex-row-reverse md:flex xl:pt-14">
           <div
-            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px]"
+            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
           >
             <h1
               class="text-xl font-black md:text-3xl lg:text-4xl md:max-w-[282px] xl:max-w-[573px]"
@@ -424,10 +425,10 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pr-6 xl:pr-8">
+          <div class="pt-4 md:pt-0 md:pr-6 xl:pr-[67px] 2xl:pr-[115px]">
             <img
-              class="2xl:w-[683px]"
-              src="https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg?t=st=1712844768~exp=1712848368~hmac=ab8a1fd54f5b2bf1277ba6475f2c5f06dc786ac19c7d309e0a38b0fd65fca163&w=1380"
+              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
+              src="obrazky/zooo.jpg"
               alt="Domek U Labe - Safari Park Dvůr Králové"
             />
           </div>
@@ -437,7 +438,7 @@
 
         <div class="pt-4 md:flex-row md:flex md:pt-9 xl:pt-14">
           <div
-            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px]"
+            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
           >
             <h1
               class="text-xl font-black md:pt-0 md:text-3xl xl:text-left md:text-right lg:text-4xl xl:max-w-[573px]"
@@ -459,10 +460,10 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pl-6 xl:pl-8">
+          <div class="pt-4 md:pt-0 md:pl-6 xl:pl-[67px] 2xl:pl-[115px]">
             <img
-              class="2xl:w-[683px]"
-              src="https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg?t=st=1712844768~exp=1712848368~hmac=ab8a1fd54f5b2bf1277ba6475f2c5f06dc786ac19c7d309e0a38b0fd65fca163&w=1380"
+              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
+              src="obrazky/galerie.webp"
               alt="Domek U Labe - Výstavní galerie minerálů"
             />
           </div>
@@ -472,7 +473,7 @@
 
         <div class="pt-4 md:pt-9 md:flex-row-reverse md:flex xl:pt-14">
           <div
-            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px]"
+            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
           >
             <h1
               class="text-xl font-black md:text-3xl lg:text-4xl md:max-w-[282px] xl:max-w-[573px]"
@@ -496,9 +497,9 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pr-6 xl:pr-8">
+          <div class="pt-4 md:pt-0 md:pr-6 xl:pr-[67px] 2xl:pr-[115px]">
             <img
-              class="2xl:w-[683px]"
+              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
               src="https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg?t=st=1712844768~exp=1712848368~hmac=ab8a1fd54f5b2bf1277ba6475f2c5f06dc786ac19c7d309e0a38b0fd65fca163&w=1380"
               alt="Domek U Labe - Žireč"
             />
@@ -509,7 +510,7 @@
 
         <div class="pt-4 md:flex-row md:flex md:pt-9 xl:pt-14">
           <div
-            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px]"
+            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
           >
             <h1
               class="text-xl font-black md:text-3xl xl:text-left md:text-right lg:text-4xl"
@@ -532,10 +533,10 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pl-6 xl:pl-8">
+          <div class="pt-4 md:pt-0 md:pl-6 xl:pl-[67px] 2xl:pl-[115px]">
             <img
-              class="2xl:w-[683px]"
-              src="https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg?t=st=1712844768~exp=1712848368~hmac=ab8a1fd54f5b2bf1277ba6475f2c5f06dc786ac19c7d309e0a38b0fd65fca163&w=1380"
+              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
+              src="obrazky/pevnostjosefov.webp"
               alt="Domek U Labe - Pevnost Josefov"
             />
           </div>
@@ -661,6 +662,7 @@
         </div>
       </section>
     </footer>
+    <script src="headerscroll.js"></script>
     <script src="add.js"></script>
     <script src="lang.js"></script>
   </body>

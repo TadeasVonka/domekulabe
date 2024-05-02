@@ -90,7 +90,8 @@
     </div>
     <!-- Header: Název, Icony-->
     <header
-      class="py-4 mx-auto md:py-7 xl:py-10 max-w-[320px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-[1240px] 2xl:max-w-[1550px] bg-white"
+      id="myHeader"
+      class="py-4 mx-auto md:py-7 xl:py-7 max-w-[320px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-full 2xl:max-w-full w-full xl:flex xl:justify-center bg-white xl:sticky xl:top-0 transition-all duration-300 z-50"
     >
       <section
         class="gap-[42px] md:gap-[316px] lg:gap-[378px] xl:gap-[249.08px] flex flex-row items-center justify-between flex-nowrap 2xl:gap-[559.08px]"
@@ -122,9 +123,7 @@
           <nav class="hidden md:hidden lg:hidden xl:block 2xl:block">
             <div class="xl:text-xl xl:text-beige xl:font-semibold">
               <ul class="xl:flex xl:items-center">
-                <li
-                  class="xl:pr-9 text-balance inline-block transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-300 before:bg-gradient-to-r from-beige via-beige to-beige hover:before:w-full hover:before:opacity-100"
-                >
+                <li class="xl:pr-9 text-balance">
                   <a href="index.html" class="relative"
                     ><span
                       data-block="h.u"
@@ -205,7 +204,7 @@
       class="w-auto bg-center bg-no-repeat bg-cover md:h-72 bg-domek xl:h-96 min-h-[192px] md:min-h-[288px] lg:min-h-[504px]"
     ></div>
     <main class="flex flex-col flex-grow xl:min-h-screen">
-      <div class="py-4 md:py-6 2xl:py-14 lg:py-14">
+      <div class="py-4 md:py-6 2xl:py-14 xl:py-14 lg:py-9">
         <h1
           class="text-xl font-semibold text-center md:text-3xl 2xl:text-5xl lg:text-[40px] text-beige"
           data-block="k.ko"
@@ -216,7 +215,7 @@
       </div>
 
       <section
-        class="flex flex-col md:flex-row max-w-[320px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-[1240px] 2xl:max-w-[1550px] mx-auto md:pb-6 lg:pb-14 flex-grow"
+        class="flex flex-col md:flex-row max-w-[320px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-[1240px] 2xl:max-w-[1550px] mx-auto md:pb-6 lg:pb-9 xl:pb-14 flex-grow"
       >
         <div class="2xl:flex 2xl:flex-col">
           <iframe
@@ -544,6 +543,7 @@
     </footer>
 
     <script src="add.js"></script>
+    <script src="headerscroll.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="form.js"></script>

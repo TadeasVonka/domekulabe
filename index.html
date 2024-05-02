@@ -92,7 +92,8 @@
     </div>
     <!-- Header: Název, Icony-->
     <header
-      class="py-4 mx-auto md:py-7 xl:py-10 max-w-[320px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-[1240px] 2xl:max-w-[1550px] bg-white"
+      id="myHeader"
+      class="py-4 mx-auto md:py-7 xl:py-7 max-w-[320px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-full 2xl:max-w-full w-full xl:flex xl:justify-center bg-white xl:sticky xl:top-0 transition-all duration-300"
     >
       <section
         class="gap-[42px] md:gap-[316px] lg:gap-[378px] xl:gap-[249.08px] flex flex-row items-center justify-between flex-nowrap 2xl:gap-[559.08px]"
@@ -201,105 +202,181 @@
       </section>
     </header>
 
-    <div
-      class="w-full max-w-full bg-local bg-center bg-no-repeat bg-cover bg-domek xl:h-96 min-h-[192px] md:min-h-[288px] lg:min-h-[504px]"
-    ></div>
-
     <main class="flex flex-col flex-grow xl:min-h-screen">
+      <section
+        class="flex flex-col items-center my-8 md:my-12 lg:my-20 xl:my-28 2xl:my-36 max-w-[320px] md:max-w-[746px] lg:max-w-[992px] mx-auto"
+      >
+        <h1
+          class="text-3xl font-extrabold text-center md:text-5xl lg:text-6xl 2xl:text-8xl xl:text-7xl text-beige"
+        >
+          Domek U Labe
+        </h1>
+        <p
+          data-block="m.txt"
+          data-txt="p"
+          class="my-3 text-xs text-center md:text-sm lg:text-2xl lg:w-[600px] lg:my-6 leading-[18px] 2xl:my-8 text-beige"
+        >
+          Ubytování pro cyklisty, turisty a dobrodruhy: Ideální místo pro
+          objevování krás české krajiny.
+        </p>
+        <a href="kontakt.html">
+          <div
+            class="flex items-center justify-center h-8 text-center w-28 md:w-32 md:h-9 2xl:w-[224px] 2xl:h-[60px] lg:w-48 lg:h-[52px] bg-gradient-to-b from-lblack to-beige rounded-3xl"
+          >
+            <button
+              data-block="m.txt"
+              data-txt="button"
+              class="text-xs font-bold text-white md:text-sm lg:text-xl 2xl:text-2xl"
+            >
+              Rezervovat
+            </button>
+          </div>
+        </a>
+      </section>
+
+      <section>
+        <img
+          class="mx-auto w-80 md:w-[746px] 2xl:w-[1550px] xl:w-[1240px] lg:w-[992px] rounded-3xl"
+          src="obrazky/barak.png"
+          alt=""
+        />
+      </section>
+
       <!-- Hlavní text -->
       <section
-        class="pt-4 pb-4 md:pt-9 lg:pt-9 md:pb-9 lg:pb-9 xl:pb-14 xl:pt-14"
+        class="pt-4 pb-4 md:pt-4 lg:pt-9 md:pb-9 lg:pb-9 xl:pb-14 xl:pt-14"
       >
         <div class="w-auto mx-auto">
           <div
             class="2xl:max-w-[1550px] xl:max-w-[1240px] lg:max-w-[992px] md:max-w-[746px] max-w-[320px] mx-auto"
           >
-            <div class="pb-2 md:pb-6 lg:pb-6">
-              <h1
-                class="text-center lg:text-left text-xl font-semibold lg:text-4xl md:text-[28px]"
-                data-block="1.on"
-                data-txt="h1"
-              >
-                O nás
-              </h1>
-            </div>
             <div class="text-xs lg:text-2xl text-beige">
               <div class="lg:flex lg:flex-row lg:gap-6 2xl:gap-14">
-                <p
-                  class="lg:w-[484px] xl:w-[608px] 2xl:w-[748px] lg:text-left text-center"
-                  data-block="1.on"
-                  data-txt="p"
-                >
-                  Vítáme Vás v Domku U Labe, kde náš příběh začíná snem o
-                  vybudování pohodového místa uprostřed nádherné přírody. Po
-                  pečlivé rekonstrukci domu, který si zachoval svou původní duši
-                  a přitom nabízí moderní pohodlí, jsme se rozhodli otevřít jeho
-                  dveře pro všechny, kteří si chtějí užít nezapomenutelný pobyt
-                  v srdci přírody, hned u břehu řeky Labe.
-                </p>
+                <div class="lg:flex lg:flex-col lg:justify-center">
+                  <div class="pb-2 md:pb-4 lg:pb-6">
+                    <h1
+                      class="text-center lg:text-left text-xl font-semibold lg:text-4xl md:text-[28px] text-black"
+                      data-block="1.on"
+                      data-txt="h1"
+                    >
+                      O nás
+                    </h1>
+                  </div>
+                  <p
+                    class="lg:w-[484px] xl:w-[608px] 2xl:w-[748px] lg:text-left text-center"
+                    data-block="1.on"
+                    data-txt="p"
+                  >
+                    Vítáme Vás v Domku U Labe, kde náš příběh začíná snem o
+                    vybudování pohodového místa uprostřed nádherné přírody. Po
+                    pečlivé rekonstrukci domu, který si zachoval svou původní
+                    duši a přitom nabízí moderní pohodlí, jsme se rozhodli
+                    otevřít jeho dveře pro všechny, kteří si chtějí užít
+                    nezapomenutelný pobyt v srdci přírody, hned u břehu řeky
+                    Labe.
+                  </p>
+                </div>
                 <img
-                  class="pt-4 lg:pt-0 lg:w-[484px] lg:h-[336px] xl:w-[608px] xl:h-[336px] 2xl:w-[748px] 2xl:h-[374px]"
+                  class="mt-4 lg:mt-0 rounded-3xl lg:w-[484px] lg:h-[336px] xl:w-[608px] xl:h-[438px] 2xl:w-[748px] 2xl:h-[538px]"
                   src="https://img.freepik.com/free-photo/charming-yellow-house-with-wooden-windows-green-grassy-garden_181624-8074.jpg?t=st=1712771382~exp=1712774982~hmac=f4463d362014b53ac0d383523420d6236e705c9a97bdebee36f359f1865c6adc&w=1380"
                   alt="Domek U Labe"
                 />
               </div>
-              <h1
-                class="pt-4 text-xl md:text-[28px] font-semibold text-center lg:text-right text-black lg:text-4xl lg:pt-9 xl:pt-14"
-                data-block="2.cvmn"
-                data-txt="h1"
-              >
-                Co vám můžeme nabídnout?
-              </h1>
               <div
-                class="lg:pt-6 lg:flex lg:flex-row-reverse lg:gap-6 2xl:gap-14"
+                class="lg:pt-9 lg:flex lg:flex-row-reverse lg:gap-6 2xl:gap-14 xl:pt-14"
               >
-                <p
-                  class="pt-2 lg:pt-0 text-center lg:text-right lg:w-[484px] xl:w-[608px] 2xl:w-[748px]"
-                  data-block="2.cvmn"
-                  data-txt="p"
-                >
-                  Od plně vybavené kuchyně (včetně sporáku, varné desky, lednice
-                  a myčky), koupelnou (s vanou, pračkou a sprchovým koutem),
-                  samostatnou toaletou, ložnicí a obývacím pokojem s krbovými
-                  kamny je připraven tak, abyste si u nás užili příjemný pobyt.
-                  Můžete si odpočinout na lavičce pod košatým dubem a vychutnat
-                  si pohled na řeku, nebo si užít večery u ohniště pod
-                  pískovcovou skálou. K dispozici je také uzamykatelné místo na
-                  kola a parkoviště pro dvě auta přímo u domu. Navíc nabízíme
-                  WiFi a SmartTV, abyste měli přístup k internetu a zábavě během
-                  vašeho pobytu.
-                </p>
+                <div class="xl:flex xl:flex-col xl:justify-center">
+                  <h1
+                    class="pt-4 text-xl md:text-[28px] font-semibold text-center lg:text-left lg:tracking-tighter xl:tracking-normal text-black lg:text-4xl lg:pt-0 lg:pb-6 xl:pb-6 xl:text-left"
+                    data-block="2.cvmn"
+                    data-txt="h1"
+                  >
+                    Co vám můžeme nabídnout?
+                  </h1>
+                  <p
+                    class="pt-2 lg:pt-0 text-center lg:text-left lg:w-[484px] xl:w-[608px] 2xl:w-[748px] xl:tracking-tight 2xl:tracking-normal"
+                    data-block="2.cvmn"
+                    data-txt="p"
+                  >
+                    Od plně vybavené kuchyně (včetně sporáku, varné desky,
+                    lednice a myčky), koupelnou (s vanou, pračkou a sprchovým
+                    koutem), samostatnou toaletou, ložnicí a obývacím pokojem s
+                    krbovými kamny je připraven tak, abyste si u nás užili
+                    příjemný pobyt. Můžete si odpočinout na lavičce pod košatým
+                    dubem a vychutnat si pohled na řeku, nebo si užít večery u
+                    ohniště pod pískovcovou skálou. K dispozici je také
+                    uzamykatelné místo na kola a parkoviště pro dvě auta přímo u
+                    domu. Navíc nabízíme WiFi a SmartTV, abyste měli přístup k
+                    internetu a zábavě během vašeho pobytu.
+                  </p>
+                </div>
                 <img
-                  class="pt-4 lg:pt-0 lg:w-[484px] lg:h-[336px] xl:w-[608px] xl:h-[336px] 2xl:w-[748px] 2xl:h-[374px]"
+                  class="mt-4 rounded-3xl lg:mt-0 lg:w-[484px] lg:h-[336px] xl:w-[608px] xl:h-[438px] 2xl:w-[748px] 2xl:h-[538px]"
                   src="https://img.freepik.com/free-photo/kitchen-with-white-walls-white-cabinets_123827-23870.jpg?t=st=1712771191~exp=1712774791~hmac=8a093ba98c7d19f74a6c656589c7e2ea71362eda78c41163f857cb2e520c50ba&w=1380"
                   alt="Domek U Labe"
                 />
               </div>
-              <h1
-                class="pt-4 text-xl font-semibold text-center lg:text-left md:text-[28px] text-black lg:text-4xl lg:pt-9 xl:pt-14"
-                data-block="3.pnn"
-                data-txt="h1"
+              <div
+                class="lg:flex lg:flex-row lg:gap-6 lg:pt-9 xl:pt-14 2xl:gap-14"
               >
-                Proč nás navštívit?
-              </h1>
-              <div class="lg:flex lg:flex-row lg:gap-6 lg:pt-6 2xl:gap-14">
-                <p
-                  class="pt-2 lg:pt-0 text-center lg:text-left lg:w-[484px] xl:w-[608px] 2xl:w-[748px]"
-                  data-block="3.pnn"
-                  data-txt="p"
-                >
-                  Protože věříme, že každý z nás si zaslouží místo, kde může
-                  načerpat novou energii a kde může prožít nezapomenutelné
-                  chvíle s těmi, na kterých mu záleží. Domek U Labe je více než
-                  jen ubytování; je to zážitek, který si odnesete v srdci.
-                  Těšíme se na vás, abychom společně psali příběhy plné radosti,
-                  odpočinku a nekonečných objevů.
-                </p>
+                <div class="lg:flex lg:flex-col lg:justify-center">
+                  <h1
+                    class="pt-4 text-xl font-semibold text-center lg:text-left md:text-[28px] text-black lg:text-4xl lg:pt-0 lg:pb-6"
+                    data-block="3.pnn"
+                    data-txt="h1"
+                  >
+                    Proč nás navštívit?
+                  </h1>
+                  <p
+                    class="pt-2 lg:pt-0 text-center lg:text-left lg:w-[484px] xl:w-[608px] 2xl:w-[748px]"
+                    data-block="3.pnn"
+                    data-txt="p"
+                  >
+                    Protože věříme, že každý z nás si zaslouží místo, kde může
+                    načerpat novou energii a kde může prožít nezapomenutelné
+                    chvíle s těmi, na kterých mu záleží. Domek U Labe je více
+                    než jen ubytování; je to zážitek, který si odnesete v srdci.
+                    Těšíme se na vás, abychom společně psali příběhy plné
+                    radosti, odpočinku a nekonečných objevů.
+                  </p>
+                </div>
                 <img
-                  class="pt-4 lg:pt-0 lg:w-[484px] lg:h-[336px] xl:w-[608px] xl:h-[336px] 2xl:w-[748px] 2xl:h-[374px]"
+                  class="mt-4 lg:mt-0 rounded-3xl lg:w-[484px] lg:h-[336px] xl:w-[608px] xl:h-[438px] 2xl:w-[748px] 2xl:h-[538px]"
                   src="https://img.freepik.com/free-photo/interior-design-with-photoframes-couch_23-2149385435.jpg?t=st=1712771071~exp=1712774671~hmac=3937d3d6a311aa46e94e8c294a354c8a246c450ba2782be77951d1208aeeed5f&w=1380"
                   alt="Domek U Labe"
                 />
+              </div>
+              <div
+                class="flex flex-col items-center py-8 mt-4 text-center xl:mt-14 lg:mt-9 md:py-16 lg:py-24 xl:py-32 bg-wgray rounded-3xl"
+              >
+                <h1
+                  data-block="p.o"
+                  data-txt="h1"
+                  class="text-xl font-semibold text-black md:text-[28px] lg:text-4xl"
+                >
+                  Prozkoumejte okolí našeho ubytování
+                </h1>
+                <p
+                  data-block="p.o"
+                  data-txt="p"
+                  class="w-64 mt-2 text-xs md:mt-3 md:w-96 lg:text-2xl lg:mt-4 lg:w-[600px]"
+                >
+                  Zajímá vás, co je v okolí našeho ubytování? Podívejte se na
+                  naše tipy na zajímavé výlety v okolí.
+                </p>
+                <a href="tipynavylet.html">
+                  <div
+                    class="text-center w-[154px] h-[38px] flex mt-3 lg:mt-6 md:w-[172px] lg:w-[248px] lg:h-[47px] xl:w-[264px] xl:h-[55px] md:h-10 md:mt-4 justify-center items-center bg-gradient-to-b from-lblack to-beige rounded-3xl"
+                  >
+                    <button
+                      data-block="p.o"
+                      data-txt="button"
+                      class="text-xs font-bold text-white md:text-sm lg:text-xl"
+                    >
+                      Prozkoumejte okolí
+                    </button>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
@@ -427,6 +504,7 @@
     </footer>
 
     <script src="add.js"></script>
+    <script src="headerscroll.js"></script>
     <script src="lang.js"></script>
   </body>
 </html>
