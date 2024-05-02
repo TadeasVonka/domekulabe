@@ -568,12 +568,12 @@ video {
   top: 0px;
 }
 
-.z-50 {
-  z-index: 50;
-}
-
 .z-40 {
   z-index: 40;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .float-left {
@@ -630,10 +630,6 @@ video {
 
 .mt-\[0\.15rem\] {
   margin-top: 0.15rem;
-}
-
-.mb-40 {
-  margin-bottom: 10rem;
 }
 
 .block {
@@ -787,10 +783,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.touch-none {
-  touch-action: none;
 }
 
 .list-inside {
@@ -958,10 +950,6 @@ video {
   background-repeat: no-repeat;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1063,10 +1051,6 @@ video {
 
 .pt-\[0\.15rem\] {
   padding-top: 0.15rem;
-}
-
-.pb-32 {
-  padding-bottom: 8rem;
 }
 
 .text-left {
@@ -1220,11 +1204,6 @@ video {
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.drop-shadow-cs {
-  --tw-drop-shadow: drop-shadow(0 2px 10px rgba(0,0,0,.05));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .transition {
@@ -1772,10 +1751,6 @@ textarea:not(:placeholder-shown) + .input-label {
     height: 52px;
   }
 
-  .lg\:h-\[375\.33px\] {
-    height: 375.33px;
-  }
-
   .lg\:max-h-\[526px\] {
     max-height: 526px;
   }
@@ -1804,16 +1779,16 @@ textarea:not(:placeholder-shown) + .input-label {
     width: 484px;
   }
 
+  .lg\:w-\[563px\] {
+    width: 563px;
+  }
+
   .lg\:w-\[600px\] {
     width: 600px;
   }
 
   .lg\:w-\[992px\] {
     width: 992px;
-  }
-
-  .lg\:w-\[563px\] {
-    width: 563px;
   }
 
   .lg\:min-w-\[338px\] {
@@ -1881,10 +1856,6 @@ textarea:not(:placeholder-shown) + .input-label {
          column-gap: 180px;
   }
 
-  .lg\:bg-auto {
-    background-size: auto;
-  }
-
   .lg\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -1919,6 +1890,10 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-left: 9rem;
   }
 
+  .lg\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
   .lg\:pl-\[134\.5px\] {
     padding-left: 134.5px;
   }
@@ -1935,24 +1910,12 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-top: 0px;
   }
 
-  .lg\:pt-6 {
-    padding-top: 1.5rem;
-  }
-
   .lg\:pt-9 {
     padding-top: 2.25rem;
   }
 
-  .lg\:pl-6 {
-    padding-left: 1.5rem;
-  }
-
   .lg\:text-left {
     text-align: left;
-  }
-
-  .lg\:text-right {
-    text-align: right;
   }
 
   .lg\:text-2xl {
@@ -1987,14 +1950,6 @@ textarea:not(:placeholder-shown) + .input-label {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:-tracking-tight {
-    letter-spacing: 0.025em;
-  }
-
-  .lg\:-tracking-tighter {
-    letter-spacing: 0.05em;
   }
 
   .lg\:tracking-tighter {
@@ -2081,12 +2036,16 @@ textarea:not(:placeholder-shown) + .input-label {
     height: 28px;
   }
 
-  .xl\:h-\[336px\] {
-    height: 336px;
-  }
-
   .xl\:h-\[35px\] {
     height: 35px;
+  }
+
+  .xl\:h-\[400px\] {
+    height: 400px;
+  }
+
+  .xl\:h-\[438px\] {
+    height: 438px;
   }
 
   .xl\:h-\[55px\] {
@@ -2099,18 +2058,6 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .xl\:h-px {
     height: 1px;
-  }
-
-  .xl\:h-\[392px\] {
-    height: 392px;
-  }
-
-  .xl\:h-\[438px\] {
-    height: 438px;
-  }
-
-  .xl\:h-\[400px\] {
-    height: 400px;
   }
 
   .xl\:max-h-none {
@@ -2153,16 +2100,16 @@ textarea:not(:placeholder-shown) + .input-label {
     width: 400px;
   }
 
+  .xl\:w-\[600px\] {
+    width: 600px;
+  }
+
   .xl\:w-\[608px\] {
     width: 608px;
   }
 
   .xl\:w-\[84px\] {
     width: 84px;
-  }
-
-  .xl\:w-\[600px\] {
-    width: 600px;
   }
 
   .xl\:min-w-\[112px\] {
@@ -2208,16 +2155,6 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .xl\:-translate-x-60 {
     --tw-translate-x: -15rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .xl\:-translate-y-10 {
-    --tw-translate-y: -2.5rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .xl\:-translate-y-\[100px\] {
-    --tw-translate-y: -100px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
@@ -2284,11 +2221,6 @@ textarea:not(:placeholder-shown) + .input-label {
     border-width: 0px;
   }
 
-  .xl\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
   .xl\:py-14 {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
@@ -2324,8 +2256,8 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-left: 3.5rem;
   }
 
-  .xl\:pl-8 {
-    padding-left: 2rem;
+  .xl\:pl-\[67px\] {
+    padding-left: 67px;
   }
 
   .xl\:pr-0 {
@@ -2336,12 +2268,12 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-right: 1.25rem;
   }
 
-  .xl\:pr-8 {
-    padding-right: 2rem;
-  }
-
   .xl\:pr-9 {
     padding-right: 2.25rem;
+  }
+
+  .xl\:pr-\[67px\] {
+    padding-right: 67px;
   }
 
   .xl\:pt-0 {
@@ -2354,18 +2286,6 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .xl\:pt-6 {
     padding-top: 1.5rem;
-  }
-
-  .xl\:pr-\[115px\] {
-    padding-right: 115px;
-  }
-
-  .xl\:pr-\[67px\] {
-    padding-right: 67px;
-  }
-
-  .xl\:pl-\[67px\] {
-    padding-left: 67px;
   }
 
   .xl\:text-left {
@@ -2418,16 +2338,12 @@ textarea:not(:placeholder-shown) + .input-label {
     font-weight: 600;
   }
 
-  .xl\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .xl\:tracking-normal {
+    letter-spacing: 0em;
   }
 
   .xl\:tracking-tight {
     letter-spacing: -0.025em;
-  }
-
-  .xl\:tracking-normal {
-    letter-spacing: 0em;
   }
 
   .xl\:text-beige {
@@ -2441,11 +2357,6 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .xl\:underline-offset-\[7px\] {
     text-underline-offset: 7px;
-  }
-
-  .xl\:drop-shadow-cs {
-    --tw-drop-shadow: drop-shadow(0 2px 10px rgba(0,0,0,.05));
-    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
   }
 }
 
@@ -2480,10 +2391,6 @@ textarea:not(:placeholder-shown) + .input-label {
     height: 60px;
   }
 
-  .\32xl\:h-\[400px\] {
-    height: 400px;
-  }
-
   .\32xl\:w-\[1550px\] {
     width: 1550px;
   }
@@ -2496,16 +2403,8 @@ textarea:not(:placeholder-shown) + .input-label {
     width: 480px;
   }
 
-  .\32xl\:w-\[683px\] {
-    width: 683px;
-  }
-
   .\32xl\:w-\[748px\] {
     width: 748px;
-  }
-
-  .\32xl\:w-\[600px\] {
-    width: 600px;
   }
 
   .\32xl\:max-w-\[1550px\] {
@@ -2543,10 +2442,6 @@ textarea:not(:placeholder-shown) + .input-label {
     flex-direction: column;
   }
 
-  .\32xl\:justify-start {
-    justify-content: flex-start;
-  }
-
   .\32xl\:justify-center {
     justify-content: center;
   }
@@ -2572,12 +2467,12 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-left: 3.5rem;
   }
 
-  .\32xl\:pr-\[115px\] {
-    padding-right: 115px;
-  }
-
   .\32xl\:pl-\[115px\] {
     padding-left: 115px;
+  }
+
+  .\32xl\:pr-\[115px\] {
+    padding-right: 115px;
   }
 
   .\32xl\:text-2xl {
