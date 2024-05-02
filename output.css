@@ -785,6 +785,10 @@ video {
   cursor: pointer;
 }
 
+.touch-none {
+  touch-action: none;
+}
+
 .list-inside {
   list-style-position: inside;
 }
