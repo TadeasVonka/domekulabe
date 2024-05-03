@@ -632,6 +632,10 @@ video {
   margin-top: 0.15rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -1053,6 +1057,10 @@ video {
   padding-top: 0.15rem;
 }
 
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1204,11 +1212,6 @@ video {
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.drop-shadow-cs {
-  --tw-drop-shadow: drop-shadow(0 2px 10px rgba(0,0,0,.05));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .transition {
@@ -1410,6 +1413,10 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .md\:mt-4 {
     margin-top: 1rem;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .md\:block {
@@ -1919,6 +1926,10 @@ textarea:not(:placeholder-shown) + .input-label {
     padding-top: 2.25rem;
   }
 
+  .lg\:pt-14 {
+    padding-top: 3.5rem;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -2362,11 +2373,6 @@ textarea:not(:placeholder-shown) + .input-label {
 
   .xl\:underline-offset-\[7px\] {
     text-underline-offset: 7px;
-  }
-
-  .xl\:drop-shadow-cs {
-    --tw-drop-shadow: drop-shadow(0 2px 10px rgba(0,0,0,.05));
-    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
   }
 }
 
