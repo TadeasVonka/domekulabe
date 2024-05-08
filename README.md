@@ -11,3 +11,9 @@ Formulář hotov, musí se zkontrolovat velikost všeho, paddingy, marginy
 
 30.04.2023
 Konec v úvod u md, musíš lg a dál
+
+08.05.2024
+Předělání celého header, struktury (vzhledu) stránky Úvod, Tipy na výlet, Kalendář, Fotogalerie
+předělání border-3xl na border-md, přidání částečních obrázků
+
+- V plánu přidat Recenze pod 'Co vám můžeme nabídnout' (je to ve figmě)

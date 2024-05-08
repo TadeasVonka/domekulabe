@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Domek U Labe nabízí unikátní ubytování pro 4 osoby v okolí historického hospitálu Kuks. U nás najdete vše od nezapomenutelných chvílí s těmi, na kterých vám záleží až po nezapomenutelný pobyt v srdci přírody, hned u břehu řeky Labe. "
+    />
     <link rel="icon" href="obrazky/logo.svg" sizes="any" type="image/svg+xml" />
     <link rel="stylesheet" href="master.css" />
     <link rel="stylesheet" href="output.css" />
@@ -89,27 +93,22 @@
       </div>
     </div>
     <!-- Header: Název, Icony-->
-    <header
-      id="myHeader"
-      class="py-4 mx-auto md:py-7 xl:py-7 max-w-[320px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-full 2xl:max-w-full w-full xl:flex xl:justify-center bg-white xl:sticky xl:top-0 transition-all duration-300 z-40"
-    >
+    <header class="bg-white border-b font-Inter border-neutral-100">
       <section
-        class="gap-[42px] md:gap-[316px] lg:gap-[378px] xl:gap-[249.08px] flex flex-row items-center justify-between flex-nowrap 2xl:gap-[559.08px]"
+        class="flex flex-row justify-between py-4 2xl:max-w-[1598px] xl:max-w-[1288px] max-w-[320px] md:max-w-[746px] lg:max-w-[992px] xl:px-6 2xl:py-6 mx-auto md:py-7"
       >
-        <div class="flex items-center">
+        <div class="flex items-center w-full">
           <a class="flex items-center" href="index.html">
-            <div class="pr-2 md:pr-4 lg:pr-5 xl:mr-0 xl:pr-5">
+            <div class="mr-1 md:mr-2 lg:mr-5 xl:mr-2">
               <img
-                class="w-6 h-6 md:w-8 md:h-8 lg:w-12 lg:h-12 xl:w-11 xl:h-8"
+                class="w-6 h-6 md:w-8 md:h-8 lg:w-12 lg:h-12 xl:w-8 xl:h-6"
                 src="obrazky/logo.svg"
                 alt="Domek U Labe - Logo"
               />
             </div>
-            <div
-              class="min-w-[142px] md:min-w-[254px] lg:min-w-[338px] xl:min-w-[226px]"
-            >
+            <div>
               <h1
-                class="text-xl font-semibold md:text-4xl lg:text-5xl xl:text-[32px]"
+                class="text-lg font-medium text-nowrap md:text-3xl lg:text-5xl xl:text-2xl"
               >
                 Domek U Labe
               </h1>
@@ -118,12 +117,12 @@
         </div>
 
         <div
-          class="flex flex-row items-center justify-center gap-4 lg:gap-8 xl:gap-0 flex-nowrap"
+          class="flex-row items-center justify-center hidden w-full gap-4 xl:flex lg:gap-8 xl:gap-0 flex-nowrap"
         >
           <nav class="hidden md:hidden lg:hidden xl:block 2xl:block">
-            <div class="xl:text-xl xl:text-beige xl:font-semibold">
-              <ul class="xl:flex xl:items-center">
-                <li class="xl:pr-9 text-balance">
+            <div class="xl:text-xl xl:text-black xl:font-medium">
+              <ul class="xl:flex xl:gap-9 xl:items-center">
+                <li class="text-balance">
                   <a href="index.html" class="relative"
                     ><span
                       data-block="h.u"
@@ -133,7 +132,7 @@
                     ></a
                   >
                 </li>
-                <li class="xl:pr-9 text-nowrap">
+                <li class="text-nowrap">
                   <a href="tipynavylet.html" class="relative">
                     <span
                       data-block="h.tnv"
@@ -143,7 +142,7 @@
                     ></a
                   >
                 </li>
-                <li class="xl:pr-9">
+                <li>
                   <a href="kalendar.html" class="relative"
                     ><span
                       data-block="h.ka"
@@ -153,7 +152,7 @@
                     ></a
                   >
                 </li>
-                <li class="xl:pr-9">
+                <li>
                   <a href="fotogalerie.html" class="relative"
                     ><span
                       data-block="h.f"
@@ -163,12 +162,12 @@
                     ></a
                   >
                 </li>
-                <li class="xl:pr-9">
+                <li>
                   <a href="kontakt.html" class="relative">
                     <span
                       data-block="h.ko"
                       data-txt="span"
-                      class="xl:underline xl:underline-offset-[7px]"
+                      class="xl:underline xl:decoration-beige xl:underline-offset-[7px]"
                       >Kontakt</span
                     >
                   </a>
@@ -176,20 +175,31 @@
               </ul>
             </div>
           </nav>
-          <div class="flex-row flex xl:w-[84px] gap-4 lg:gap-8 xl:gap-0">
-            <img
-              class="w-6 h-6 cursor-pointer btn-lang md:w-8 md:h-8 lg:w-12 lg:h-12 xl:w-8 xl:h-5 xl:mr-5"
-              src="obrazky/czflag.svg"
-              alt="Domek U Labe - FlagofCZ"
-              data-lang="cz"
-            />
-            <img
-              class="w-6 h-6 cursor-pointer btn-lang md:w-8 md:h-8 lg:w-12 lg:h-12 xl:w-8 xl:h-5"
-              src="obrazky/gbflag.svg"
-              alt="Domek U Labe - FlagofUK"
-              data-lang="en"
-            />
-          </div>
+        </div>
+        <div
+          class="flex flex-row items-center justify-end w-full gap-4 lg:gap-8 xl:gap-2"
+        >
+          <a href="kontakt.html">
+            <button
+              data-block="h.re"
+              data-txt="button"
+              class="hidden xl:block border-2 text-base hover:text-white hover:bg-gradient-to-br hover:from-black hover:from-25% hover:to-beige font-semibold leading-[19px] pt-[9px] pb-[10px] px-4 rounded-md border-black"
+            >
+              Rezervovat
+            </button>
+          </a>
+          <img
+            class="w-6 h-6 cursor-pointer btn-lang md:w-8 md:h-8 lg:w-12 lg:h-12 xl:w-8 xl:h-5"
+            src="obrazky/czflag.svg"
+            alt="Domek U Labe - FlagofCZ"
+            data-lang="cz"
+          />
+          <img
+            class="w-6 h-6 cursor-pointer btn-lang md:w-8 md:h-8 lg:w-12 lg:h-12 xl:w-8 xl:h-5"
+            src="obrazky/gbflag.svg"
+            alt="Domek U Labe - FlagofUK"
+            data-lang="en"
+          />
           <img
             class="block w-6 h-6 cursor-pointer md:w-8 md:h-8 lg:w-12 lg:h-12 xl:hidden"
             src="obrazky/hamburger.svg"
@@ -200,26 +210,25 @@
       </section>
     </header>
 
-    <div
-      class="w-auto bg-center bg-no-repeat bg-cover md:h-72 bg-domek xl:h-96 min-h-[192px] md:min-h-[288px] lg:min-h-[504px]"
-    ></div>
     <main class="flex flex-col flex-grow xl:min-h-screen">
-      <div class="py-4 md:py-6 2xl:py-14 xl:py-14 lg:py-9">
+      <section
+        class="flex flex-col items-center text-black my-8 md:my-12 lg:my-20 max-w-[320px] md:max-w-[746px] lg:max-w-[992px] mx-auto"
+      >
         <h1
-          class="text-xl font-semibold text-center md:text-3xl 2xl:text-5xl lg:text-[40px] text-beige"
-          data-block="k.ko"
+          data-block="kn.txt"
           data-txt="h1"
+          class="text-3xl font-semibold text-center xl:font-medium md:text-5xl lg:text-6xl xl:text-7xl"
         >
           Kontakt
         </h1>
-      </div>
+      </section>
 
       <section
         class="flex flex-col md:flex-row max-w-[320px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-[1240px] 2xl:max-w-[1550px] mx-auto md:pb-6 lg:pb-9 xl:pb-14 flex-grow"
       >
         <div class="2xl:flex 2xl:flex-col">
           <iframe
-            class="max-w-[320px] md:max-w-[440px] max-h-[240px] md:max-h-[360px] lg:max-w-[574px] lg:max-h-[526px] xl:max-w-[585px] 2xl:max-w-[895px] rounded-3xl"
+            class="max-w-[320px] md:max-w-[440px] max-h-[240px] md:max-h-[360px] lg:max-w-[574px] lg:max-h-[526px] xl:max-w-[585px] 2xl:max-w-[895px] rounded-md"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d899.1602283071285!2d15.87004787529557!3d50.39993910894098!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470e872066d5bd17%3A0x7adf283b505e579c!2sDomek%20U%20Labe!5e0!3m2!1scs!2scz!4v1713617037603!5m2!1scs!2scz"
             width="927"
             height="554"
@@ -229,7 +238,7 @@
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
           <img
-            class="mt-4 xl:mt-14 md:max-w-[440px] md:max-h-[360px] lg:max-w-[574px] lg:max-h-[526px] xl:max-w-[585px] 2xl:max-w-[895px] rounded-3xl"
+            class="mt-4 xl:mt-14 md:max-w-[440px] md:max-h-[360px] lg:max-w-[574px] lg:max-h-[526px] xl:max-w-[585px] 2xl:max-w-[895px] rounded-md"
             src="obrazky/finalmap.webp"
             alt="Domek U Labe - Mapa"
             width="927"
@@ -411,7 +420,7 @@
                 data-block="k.form"
                 data-txt="button"
                 type="submit"
-                class="inline-block w-[320px] xl:mx-auto md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] rounded-3xl bg-beige px-6 pb-2 pt-2.5 text-xs xl:text-sm xl:font-semibold font-medium uppercase leading-normal text-white"
+                class="inline-block w-[320px] xl:mx-auto md:w-[282px] lg:w-[362px] xl:w-[400px] 2xl:w-[480px] rounded-md bg-beige px-6 pb-2 pt-2.5 text-xs xl:text-sm xl:font-semibold font-medium uppercase leading-normal text-white"
                 data-twe-ripple-init
                 data-twe-ripple-color="light"
               >
@@ -552,7 +561,6 @@
     </footer>
 
     <script src="add.js"></script>
-    <script src="headerscroll.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="form.js"></script>

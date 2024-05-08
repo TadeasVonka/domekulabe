@@ -34,6 +34,7 @@ module.exports = {
       fontFamily: {
         Raleway: ["Raleway", "sans-serif"],
         Roboto: ["Roboto", "sans-serif"],
+        Inter: ["Inter", "sans-serif"],
       },
       backgroundImage: {
         domek: "url('obrazky/barak.png')",

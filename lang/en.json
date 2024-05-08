@@ -14,6 +14,9 @@
   "h.ko": {
     "span": "Contact"
   },
+  "h.re": {
+    "button": "Book now"
+  },
 
   "o.u": {
     "a": "About"
@@ -36,6 +39,26 @@
     "button": "Book now"
   },
 
+  "tp.txt": {
+    "h1": "Tips for Trips",
+    "p": "Planning an adventurous trip full of exploration? Here are some great places to visit!",
+    "button": "Explore"
+  },
+
+  "kl.txt": {
+    "h1": "Calendar",
+    "p": "Check the availability of accommodation and choose a date that suits you!"
+  },
+
+  "ft.txt": {
+    "h1": "Photo Gallery",
+    "p": "Take a look at our accommodation through photos and imagine what your ideal holiday with us would look like!"
+  },
+
+  "kn.txt": {
+    "h1": "Contact"
+  },
+
   "1.on": {
     "h1": "About us",
     "p": "Welcome to Domek U Labe, where our story begins with the dream of building a relaxing place in the middle of beautiful nature. After a careful renovation of the house, which has kept its original soul while offering modern comfort, we decided to open its doors to all those who want to enjoy an unforgettable stay in the heart of nature, right on the banks of the Elbe River."
@@ -46,7 +69,7 @@
   },
   "3.pnn": {
     "h1": "Why visit us?",
-    "p": "Because we believe that everyone deserves a place where they can recharge their batteries and spend unforgettable moments with those they care about. Domek U Labe is more than just an accommodation; it's an experience you'll carry in your heart. We look forward to seeing you and writing stories of joy, relaxation and endless discovery together."
+    "p": "Because we believe that everyone deserves a place where they can recharge their batteries and spend unforgettable moments with those you care about. Domek U Labe is more than just an accommodation; it's an experience you'll carry in your heart. We look forward to seeing you and writing stories of joy, relaxation and endless discovery together."
   },
 
   "t.tnv": {

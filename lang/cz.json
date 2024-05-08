@@ -14,6 +14,9 @@
   "h.ko": {
     "span": "Kontakt"
   },
+  "h.re": {
+    "button": "Rezervovat"
+  },
 
   "o.u": {
     "a": "Úvod"
@@ -36,6 +39,23 @@
     "button": "Rezervovat"
   },
 
+  "tp.txt": {
+    "h1": "Tipy na výlet",
+    "p": "Plánujete dobrodružný výlet plný objevování? Zde máte skvělá místa k návštěvě!",
+    "button": "Prozkoumat"
+  },
+  "kl.txt": {
+    "h1": "Kalendář",
+    "p": "Podívejte se na dostupnost ubytování a vyberte si termín, který vám vyhovuje!"
+  },
+  "ft.txt": {
+    "h1": "Fotogalerie",
+    "p": "Prohlédněte si naše ubytování prostřednictvím fotografií a představte si, jak by vypadala vaše ideální dovolená u nás!"
+  },
+  "kn.txt": {
+    "h1": "Kontakt"
+  },
+
   "1.on": {
     "h1": "O nás",
     "p": "Vítáme vás v Domku U Labe, kde náš příběh začíná snem o vybudování pohodového místa uprostřed nádherné přírody. Po pečlivé rekonstrukci domu, který si zachoval svou původní duši a přitom nabízí moderní pohodlí, jsme se rozhodli otevřít dveře pro všechny, kteří si chtějí užít nezapomenutelný pobyt v srdci přírody, hned u břehu řeky Labe."
@@ -46,7 +66,7 @@
   },
   "3.pnn": {
     "h1": "Proč nás navštívit?",
-    "p": "Protože věříme, že každý z nás si zaslouží místo, kde může načerpat novou energii a kde může prožít nezapomenutelné chvíle s těmi, na kterých mu záleží. Domek U Labe je více než jen ubytování; je to zážitek, který si odnesete v srdci. Těšíme se na vás, abychom společně psali příběhy plné radosti, odpočinku a nekonečných objevů."
+    "p": "Protože věříme, že každý z nás si zaslouží místo, kde může načerpat novou energii a kde může prožít nezapomenutelné chvíle s těmi, na kterých vám záleží. Domek U Labe je více než jen ubytování; je to zážitek, který si odnesete v srdci. Těšíme se na vás, abychom společně psali příběhy plné radosti, odpočinku a nekonečných objevů."
   },
 
   "t.tnv": {

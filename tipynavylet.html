@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Starobylé věnné město českých královen, Dvůr Králové nad Labem, se rozprostírá v malebném údolí horního toku řeky Labe. Město přímo vybízí ke strávení aktivně-odpočinkové dovolené. Čeká na vás objevování překrásné přírody, řada uměleckých památek, ..."
+    />
     <link rel="icon" href="obrazky/logo.svg" sizes="any" type="image/svg+xml" />
     <link rel="stylesheet" href="master.css" />
     <link rel="stylesheet" href="output.css" />
@@ -89,27 +93,22 @@
       </div>
     </div>
     <!-- Header: Název, Icony-->
-    <header
-      id="myHeader"
-      class="py-4 mx-auto md:py-7 xl:py-7 max-w-[320px] md:max-w-[746px] lg:max-w-[992px] xl:max-w-full 2xl:max-w-full w-full xl:flex xl:justify-center bg-white xl:sticky xl:top-0 transition-all duration-300 z-40"
-    >
+    <header class="bg-white border-b font-Inter border-neutral-100">
       <section
-        class="gap-[42px] md:gap-[316px] lg:gap-[378px] xl:gap-[249.08px] flex flex-row items-center justify-between flex-nowrap 2xl:gap-[559.08px]"
+        class="flex flex-row justify-between py-4 2xl:max-w-[1598px] xl:max-w-[1288px] max-w-[320px] md:max-w-[746px] lg:max-w-[992px] xl:px-6 2xl:py-6 mx-auto md:py-7"
       >
-        <div class="flex items-center">
+        <div class="flex items-center w-full">
           <a class="flex items-center" href="index.html">
-            <div class="pr-2 md:pr-4 lg:pr-5 xl:mr-0 xl:pr-5">
+            <div class="mr-1 md:mr-2 lg:mr-5 xl:mr-2">
               <img
-                class="w-6 h-6 md:w-8 md:h-8 lg:w-12 lg:h-12 xl:w-11 xl:h-8"
+                class="w-6 h-6 md:w-8 md:h-8 lg:w-12 lg:h-12 xl:w-8 xl:h-6"
                 src="obrazky/logo.svg"
                 alt="Domek U Labe - Logo"
               />
             </div>
-            <div
-              class="min-w-[142px] md:min-w-[254px] lg:min-w-[338px] xl:min-w-[226px]"
-            >
+            <div>
               <h1
-                class="text-xl font-semibold md:text-4xl lg:text-5xl xl:text-[32px]"
+                class="text-lg font-medium text-nowrap md:text-3xl lg:text-5xl xl:text-2xl"
               >
                 Domek U Labe
               </h1>
@@ -118,12 +117,12 @@
         </div>
 
         <div
-          class="flex flex-row items-center justify-center gap-4 lg:gap-8 xl:gap-0 flex-nowrap"
+          class="flex-row items-center justify-center hidden w-full gap-4 xl:flex lg:gap-8 xl:gap-0 flex-nowrap"
         >
           <nav class="hidden md:hidden lg:hidden xl:block 2xl:block">
-            <div class="xl:text-xl xl:text-beige xl:font-semibold">
-              <ul class="xl:flex xl:items-center">
-                <li class="xl:pr-9">
+            <div class="xl:text-xl xl:text-black xl:font-medium">
+              <ul class="xl:flex xl:gap-9 xl:items-center">
+                <li class="text-balance">
                   <a href="index.html" class="relative"
                     ><span
                       data-block="h.u"
@@ -133,17 +132,17 @@
                     ></a
                   >
                 </li>
-                <li class="xl:pr-9 text-nowrap">
+                <li class="text-nowrap">
                   <a href="tipynavylet.html" class="relative">
                     <span
                       data-block="h.tnv"
                       data-txt="span"
-                      class="xl:underline xl:underline-offset-[7px]"
+                      class="xl:underline xl:decoration-beige xl:underline-offset-[7px]"
                       >Tipy na výlet</span
                     ></a
                   >
                 </li>
-                <li class="xl:pr-9">
+                <li>
                   <a href="kalendar.html" class="relative"
                     ><span
                       data-block="h.ka"
@@ -153,7 +152,7 @@
                     ></a
                   >
                 </li>
-                <li class="xl:pr-9">
+                <li>
                   <a href="fotogalerie.html" class="relative"
                     ><span
                       data-block="h.f"
@@ -163,7 +162,7 @@
                     ></a
                   >
                 </li>
-                <li class="xl:pr-9">
+                <li>
                   <a href="kontakt.html" class="relative">
                     <span
                       data-block="h.ko"
@@ -176,20 +175,31 @@
               </ul>
             </div>
           </nav>
-          <div class="flex-row flex xl:w-[84px] gap-4 lg:gap-8 xl:gap-0">
-            <img
-              class="w-6 h-6 cursor-pointer btn-lang md:w-8 md:h-8 lg:w-12 lg:h-12 xl:w-8 xl:h-5 xl:mr-5"
-              src="obrazky/czflag.svg"
-              alt="Domek U Labe - FlagofCZ"
-              data-lang="cz"
-            />
-            <img
-              class="w-6 h-6 cursor-pointer btn-lang md:w-8 md:h-8 lg:w-12 lg:h-12 xl:w-8 xl:h-5"
-              src="obrazky/gbflag.svg"
-              alt="Domek U Labe - FlagofUK"
-              data-lang="en"
-            />
-          </div>
+        </div>
+        <div
+          class="flex flex-row items-center justify-end w-full gap-4 lg:gap-8 xl:gap-2"
+        >
+          <a href="kontakt.html">
+            <button
+              data-block="h.re"
+              data-txt="button"
+              class="hidden xl:block text-base text-white bg-gradient-to-br from-black from-25% to-beige font-semibold leading-[19px] pt-[11px] pb-[12px] px-4 rounded-md"
+            >
+              Rezervovat
+            </button>
+          </a>
+          <img
+            class="w-6 h-6 cursor-pointer btn-lang md:w-8 md:h-8 lg:w-12 lg:h-12 xl:w-8 xl:h-5"
+            src="obrazky/czflag.svg"
+            alt="Domek U Labe - FlagofCZ"
+            data-lang="cz"
+          />
+          <img
+            class="w-6 h-6 cursor-pointer btn-lang md:w-8 md:h-8 lg:w-12 lg:h-12 xl:w-8 xl:h-5"
+            src="obrazky/gbflag.svg"
+            alt="Domek U Labe - FlagofUK"
+            data-lang="en"
+          />
           <img
             class="block w-6 h-6 cursor-pointer md:w-8 md:h-8 lg:w-12 lg:h-12 xl:hidden"
             src="obrazky/hamburger.svg"
@@ -200,36 +210,67 @@
       </section>
     </header>
 
-    <div
-      class="w-auto bg-center bg-no-repeat bg-cover bg-domek xl:h-96 min-h-[192px] md:min-h-[288px] lg:min-h-[504px]"
-    ></div>
     <main>
-      <div class="py-4 md:py-6 2xl:py-14 xl:py-14 lg:py-9">
+      <section
+        class="flex flex-col items-center text-black my-8 md:my-12 lg:my-20 max-w-[320px] md:max-w-[746px] lg:max-w-[992px] mx-auto"
+      >
         <h1
-          class="text-xl font-semibold text-center md:text-3xl 2xl:text-5xl lg:text-[40px] text-beige"
-          data-block="t.tnv"
+          data-block="tp.txt"
           data-txt="h1"
+          class="text-3xl font-semibold text-center xl:font-medium md:text-5xl lg:text-6xl xl:text-7xl"
         >
           Tipy na výlet
         </h1>
-      </div>
+        <p
+          data-block="tp.txt"
+          data-txt="p"
+          class="my-3 text-xs text-center md:text-sm lg:text-base lg:w-[503px] lg:my-6 leading-[18px] 2xl:my-4"
+        >
+          Plánujete dobrodružný výlet plný objevování? Zde máte skvělá místa k
+          návštěvě!
+        </p>
+        <a id="scroll-to-vylet">
+          <div
+            class="flex items-center justify-center h-8 text-center w-28 md:w-32 md:h-9 2xl:w-[136px] 2xl:h-[44px] cursor-pointer lg:w-48 lg:h-[52px] border border-black rounded-md"
+          >
+            <button
+              data-block="tp.txt"
+              data-txt="button"
+              class="text-xs font-semibold text-black font-Inter md:text-sm lg:text-xl 2xl:text-base"
+            >
+              Prozkoumat
+            </button>
+          </div>
+        </a>
+      </section>
+
+      <section>
+        <img
+          class="mx-auto w-80 md:w-[746px] 2xl:w-[1550px] 2xl:h-[516.67px] 2xl:object-cover xl:w-[1240px] lg:w-[992px] rounded-md mb-8 md:mb-12 lg:mb-14 xl:mb-20"
+          src="obrazky/tipynavyletbaner.webp"
+          alt=""
+        />
+      </section>
       <!-- Dvůr Králové nad Labem -->
 
       <section
+        id="vylet"
         class="flex flex-col max-w-[320px] mx-auto md:max-w-[746px] lg:max-w-[992px] pb-4 md:pb-6 lg:pb-9 xl:pb-14 xl:max-w-[1240px] 2xl:max-w-[1550px]"
       >
-        <div class="md:flex-row-reverse md:flex xl:flex-row-reverse">
+        <div
+          class="md:flex-row-reverse md:flex xl:flex-row-reverse 2xl:gap-40 xl:gap-10"
+        >
           <div
-            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
+            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[600px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
           >
             <h1
-              class="text-xl font-black md:text-3xl lg:text-4xl md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px]"
+              class="text-xl font-black md:text-3xl lg:text-4xl md:max-w-[282px] lg:max-w-[405px] xl:max-w-[600px]"
             >
               Dvůr Králové nad Labem
             </h1>
             <div>
               <p
-                class="pt-2 text-xs md:pt-3 xl:pt-6 md:text-base text-beige xl:text-2xl"
+                class="pt-2 text-xs text-black md:pt-3 xl:pt-4 md:text-base xl:text-lg 2xl:w-[695px]"
                 data-block="t.dknl"
                 data-txt="p"
               >
@@ -242,9 +283,9 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pr-6 xl:pr-[67px] 2xl:pr-[115px]">
+          <div class="pt-4 md:pt-0 md:mr-6 xl:mr-0 2xl:mr-0">
             <img
-              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
+              class="2xl:w-[695px] 2xl:h-[463.33px] xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-md"
               src="https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg?t=st=1712844768~exp=1712848368~hmac=ab8a1fd54f5b2bf1277ba6475f2c5f06dc786ac19c7d309e0a38b0fd65fca163&w=1380"
               alt="Domek U Labe - Dvůr Králové nad Labem"
             />
@@ -253,12 +294,12 @@
 
         <!--  Naučná stezka Půjdem spolu do Betléma -->
 
-        <div class="md:flex-row md:flex md:pt-9 xl:pt-14">
+        <div class="md:flex-row md:flex md:pt-9 xl:pt-14 2xl:gap-40 xl:gap-10">
           <div
-            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px]"
+            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[600px] 2xl:max-w-[835px] xl:pt-4 2xl:pt-7"
           >
             <h1
-              class="pt-4 text-xl font-black xl:text-left md:pt-0 md:text-3xl md:text-right lg:text-4xl xl:max-w-[573px]"
+              class="pt-4 text-xl font-black xl:text-left md:pt-0 md:text-3xl md:text-right lg:text-4xl"
               data-block="t.betlem"
               data-txt="h1"
             >
@@ -266,7 +307,7 @@
             </h1>
             <div>
               <p
-                class="pt-2 text-xs md:pt-3 xl:pt-6 text-beige md:text-right xl:text-left md:text-base xl:text-2xl"
+                class="pt-2 text-xs text-black md:pt-3 xl:pt-4 md:text-right xl:text-left md:text-base xl:text-lg 2xl:w-[695px]"
                 data-block="t.betlem"
                 data-txt="p"
               >
@@ -276,9 +317,9 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pl-6 lg:pl-6 xl:pl-[67px] 2xl:pl-[115px]">
+          <div class="pt-4 md:pt-0 md:ml-6 lg:ml-6 xl:ml-0 2xl:ml-0">
             <img
-              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
+              class="2xl:w-[695px] 2xl:h-[463.33px] xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-md"
               src="obrazky/betlem.webp"
               alt="Domek U Labe - Naučná stezka"
             />
@@ -288,17 +329,17 @@
         <!-- Další naučné stezky: -->
 
         <div
-          class="pt-2 text-beige md:flex md:pt-4 xl:pt-0 xl:h-[72px] 2xl:h-6"
+          class="pt-2 text-black md:flex md:pt-4 xl:pt-0 xl:h-[56px] 2xl:h-6 xl:-translate-y-[56px] 2xl:-translate-y-0"
         >
           <h1
-            class="text-base xl:-translate-y-[114px] 2xl:-translate-y-[147px] 2xl:-translate-x-px xl:text-2xl xl:font-medium md:font-black text-left md:max-w-[282px] lg:min-w-[405px] xl:h-[28px] xl:min-w-[228px] md:text-3xl md:text-right lg:pl-36 xl:pl-0"
+            class="text-base xl:-translate-y-[109px] 2xl:-translate-y-[206px] 2xl:-translate-x-px xl:text-2xl xl:font-medium md:font-black text-left md:max-w-[282px] lg:min-w-[405px] xl:h-[28px] xl:min-w-[228px] md:text-3xl md:text-right lg:pl-36 xl:pl-0"
             data-block="t.dstezky"
             data-txt="h1"
           >
             Další naučné stezky:
           </h1>
           <div
-            class="flex flex-row xl:-translate-x-60 xl:-translate-y-16 2xl:-translate-x-59 2xl:-translate-y-[91px] lg:justify-around md:justify-end pt-2 md:pt-0 md:max-w-[464px] lg:max-w-[710px] xl:max-w-[px] gap-x-[25px] md:pl-9 lg:gap-x-[180px] md:gap-x-0 xl:gap-x-14"
+            class="flex flex-row xl:-translate-x-60 xl:-translate-y-[66px] 2xl:-translate-x-59 2xl:-translate-y-[153px] lg:justify-around md:justify-end pt-2 md:pt-0 md:max-w-[464px] lg:max-w-[710px] xl:max-w-[px] gap-x-[25px] md:pl-9 lg:gap-x-[180px] md:gap-x-0 xl:gap-x-14"
           >
             <div class="pl-[7px] md:pl-0 lg:pl-0">
               <ul
@@ -328,17 +369,19 @@
 
         <!-- Kuks -->
 
-        <div class="pt-4 md:flex-row-reverse md:flex md:pt-9 xl:pt-14">
+        <div
+          class="pt-4 2xl:gap-40 md:flex-row-reverse md:flex md:pt-9 xl:pt-0 2xl:pt-14 xl:gap-10"
+        >
           <div
-            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
+            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[600px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
           >
             <h1
-              class="text-xl font-black md:text-3xl lg:text-4xl md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px]"
+              class="text-xl font-black md:text-3xl lg:text-4xl md:max-w-[282px] lg:max-w-[405px]"
             >
               Kuks
             </h1>
             <div
-              class="pt-2 text-xs md:pt-3 xl:pt-6 md:text-base text-beige xl:text-2xl"
+              class="pt-2 text-xs text-black md:pt-3 xl:pt-6 2xl:pt-4 md:text-base xl:text-lg 2xl:w-[695px]"
             >
               <p data-block="t.kuks" data-txt="p">
                 Břehy života a smrti - pozůstatky bývalých barokních lázní a
@@ -354,9 +397,9 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pr-6 xl:pr-[67px] 2xl:pr-[115px]">
+          <div class="pt-4 md:pt-0 md:mr-6 xl:mr-0 2xl:mr-0">
             <img
-              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
+              class="2xl:w-[695px] 2xl:h-[463.33px] xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-md"
               src="obrazky/kuks.webp"
               alt="Domek U Labe - Kuks"
             />
@@ -365,12 +408,14 @@
 
         <!-- Les Království -->
 
-        <div class="pt-4 md:flex-row md:flex md:pt-9 xl:pt-14">
+        <div
+          class="pt-4 2xl:gap-40 md:flex-row md:flex md:pt-9 xl:pt-14 xl:gap-10"
+        >
           <div
-            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
+            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[600px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
           >
             <h1
-              class="text-xl font-black md:pt-0 md:text-3xl xl:text-left md:text-right lg:text-4xl xl:max-w-[573px]"
+              class="text-xl font-black md:pt-0 md:text-3xl xl:text-left md:text-right lg:text-4xl"
               data-block="t.prehrada"
               data-txt="h1"
             >
@@ -378,7 +423,7 @@
             </h1>
             <div>
               <p
-                class="pt-2 text-xs md:pt-3 xl:pt-6 xl:text-left text-beige md:text-right md:text-base xl:text-2xl"
+                class="pt-2 text-xs md:pt-3 xl:pt-6 2xl:pt-4 xl:text-left text-black md:text-right md:text-base xl:text-lg 2xl:w-[695px]"
                 data-block="t.prehrada"
                 data-txt="p"
               >
@@ -390,9 +435,9 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pl-6 xl:pl-[67px] 2xl:pl-[115px]">
+          <div class="pt-4 md:pt-0 md:ml-6 xl:ml-0 2xl:ml-0">
             <img
-              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
+              class="2xl:w-[695px] 2xl:h-[463.33px] xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-md"
               src="obrazky/prehrada.jpg"
               alt="Domek U Labe - Les Království"
             />
@@ -401,12 +446,14 @@
 
         <!-- Safari Park Dvůr Králové -->
 
-        <div class="pt-4 md:pt-9 md:flex-row-reverse md:flex xl:pt-14">
+        <div
+          class="pt-4 md:pt-9 md:flex-row-reverse md:flex xl:pt-14 2xl:gap-40 xl:gap-10"
+        >
           <div
-            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
+            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[600px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
           >
             <h1
-              class="text-xl font-black md:text-3xl lg:text-4xl md:max-w-[282px] xl:max-w-[573px]"
+              class="text-xl font-black md:text-3xl lg:text-4xl"
               data-block="t.safari"
               data-txt="h1"
             >
@@ -414,7 +461,7 @@
             </h1>
             <div>
               <p
-                class="pt-2 text-xs md:pt-3 xl:pt-6 md:text-base text-beige xl:text-2xl"
+                class="pt-2 text-xs md:pt-3 xl:pt-6 2xl:pt-4 md:text-base text-black xl:text-lg 2xl:w-[695px]"
                 data-block="t.safari"
                 data-txt="p"
               >
@@ -425,9 +472,9 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pr-6 xl:pr-[67px] 2xl:pr-[115px]">
+          <div class="pt-4 md:pt-0 md:mr-6 xl:mr-0 2xl:mr-0">
             <img
-              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
+              class="2xl:w-[695px] 2xl:h-[463.33px] xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-md md:w-[440px]"
               src="obrazky/zooo.jpg"
               alt="Domek U Labe - Safari Park Dvůr Králové"
             />
@@ -436,12 +483,14 @@
 
         <!-- Výstavní galerie minerálů -->
 
-        <div class="pt-4 md:flex-row md:flex md:pt-9 xl:pt-14">
+        <div
+          class="pt-4 md:flex-row md:flex md:pt-9 xl:pt-14 2xl:gap-40 xl:gap-10"
+        >
           <div
-            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
+            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[600px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
           >
             <h1
-              class="text-xl font-black md:pt-0 md:text-3xl xl:text-left md:text-right lg:text-4xl xl:max-w-[573px]"
+              class="text-xl font-black md:pt-0 md:text-3xl xl:text-left md:text-right lg:text-4xl"
               data-block="t.gallery"
               data-txt="h1"
             >
@@ -449,7 +498,7 @@
             </h1>
             <div>
               <p
-                class="pt-2 text-xs md:pt-3 xl:pt-6 text-beige xl:text-left md:text-right md:text-base xl:text-2xl"
+                class="pt-2 text-xs md:pt-3 xl:pt-6 2xl:pt-4 text-black xl:text-left md:text-right md:text-base xl:text-lg 2xl:w-[695px]"
                 data-block="t.gallery"
                 data-txt="p"
               >
@@ -460,9 +509,9 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pl-6 xl:pl-[67px] 2xl:pl-[115px]">
+          <div class="pt-4 md:pt-0 md:ml-6 xl:ml-0 2xl:ml-0">
             <img
-              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
+              class="2xl:w-[695px] 2xl:h-[463.33px] xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-md"
               src="obrazky/galerie.webp"
               alt="Domek U Labe - Výstavní galerie minerálů"
             />
@@ -471,20 +520,22 @@
 
         <!-- Barokní areál Žireč -->
 
-        <div class="pt-4 md:pt-9 md:flex-row-reverse md:flex xl:pt-14">
+        <div
+          class="pt-4 md:pt-9 md:flex-row-reverse md:flex xl:pt-14 2xl:gap-40 xl:gap-10"
+        >
           <div
-            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
+            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[600px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
           >
             <h1
-              class="text-xl font-black md:text-3xl lg:text-4xl md:max-w-[282px] xl:max-w-[573px]"
+              class="text-xl font-black md:text-3xl lg:text-4xl"
               data-block="t.zirec"
               data-txt="h1"
             >
-              Barokní areál Žireč
+              Areál Žireč
             </h1>
             <div>
               <p
-                class="pt-2 text-xs md:pt-3 xl:pt-6 md:text-base text-beige xl:text-2xl"
+                class="pt-2 text-xs md:pt-3 xl:pt-6 2xl:pt-4 md:text-base text-black xl:text-lg 2xl:w-[695px]"
                 data-block="t.zirec"
                 data-txt="p"
               >
@@ -497,9 +548,9 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pr-6 xl:pr-[67px] 2xl:pr-[115px]">
+          <div class="pt-4 md:pt-0 md:mr-6 xl:mr-0 2xl:mr-0">
             <img
-              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
+              class="2xl:w-[695px] 2xl:h-[463.33px] xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-md"
               src="https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg?t=st=1712844768~exp=1712848368~hmac=ab8a1fd54f5b2bf1277ba6475f2c5f06dc786ac19c7d309e0a38b0fd65fca163&w=1380"
               alt="Domek U Labe - Žireč"
             />
@@ -508,9 +559,11 @@
 
         <!-- Pevnost Josefov -->
 
-        <div class="pt-4 md:flex-row md:flex md:pt-9 xl:pt-14">
+        <div
+          class="pt-4 2xl:gap-40 md:flex-row md:flex md:pt-9 xl:pt-14 xl:gap-10"
+        >
           <div
-            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[573px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
+            class="md:max-w-[282px] lg:max-w-[405px] xl:max-w-[600px] 2xl:max-w-[835px] xl:flex xl:flex-col xl:justify-center"
           >
             <h1
               class="text-xl font-black md:text-3xl xl:text-left md:text-right lg:text-4xl"
@@ -521,7 +574,7 @@
             </h1>
             <div>
               <p
-                class="pt-2 text-xs md:pt-3 xl:pt-6 xl:text-left text-beige md:text-right md:text-base xl:text-2xl"
+                class="pt-2 text-xs md:pt-3 xl:pt-6 2xl:pt-4 xl:text-left text-black md:text-right md:text-base xl:text-lg 2xl:w-[695px]"
                 data-block="t.josefov"
                 data-txt="p"
               >
@@ -533,9 +586,9 @@
               </p>
             </div>
           </div>
-          <div class="pt-4 md:pt-0 md:pl-6 xl:pl-[67px] 2xl:pl-[115px]">
+          <div class="pt-4 md:pt-0 md:ml-6 xl:ml-0 2xl:ml-0">
             <img
-              class="xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-3xl"
+              class="2xl:w-[695px] 2xl:h-[463.33px] xl:w-[600px] xl:h-[400px] lg:w-[563px] rounded-md"
               src="obrazky/pevnostjosefov.webp"
               alt="Domek U Labe - Pevnost Josefov"
             />
@@ -662,8 +715,8 @@
         </div>
       </section>
     </footer>
-    <script src="headerscroll.js"></script>
     <script src="add.js"></script>
+    <script src="scroll.js"></script>
     <script src="lang.js"></script>
   </body>
 </html>
