@@ -35,6 +35,7 @@
             data-block="o.u"
             data-txt="a"
             href="index.html"
+            aria-label="Úvod"
             class="block text-xl font-semibold md:text-3xl text-beige"
             >Úvod</a
           >
@@ -44,6 +45,7 @@
             data-block="o.tnv"
             data-txt="a"
             href="tipynavylet.html"
+            aria-label="Tipy na výlet"
             class="block text-xl font-semibold md:text-3xl text-beige"
             >Tipy na výlet</a
           >
@@ -53,6 +55,7 @@
             data-block="o.ka"
             data-txt="a"
             href="kalendar.html"
+            aria-label="Kalendář"
             class="block text-xl font-semibold md:text-3xl text-beige"
             >Kalendář</a
           >
@@ -62,6 +65,7 @@
             data-block="o.f"
             data-txt="a"
             href="fotogalerie.html"
+            aria-label="Fotogalerie"
             class="block text-xl font-semibold md:text-3xl text-beige"
             >Fotogalerie</a
           >
@@ -71,6 +75,7 @@
             data-block="o.ko"
             data-txt="a"
             href="kontakt.html"
+            aria-label="Kontakt"
             class="block text-xl font-semibold md:text-3xl text-beige"
             >Kontakt</a
           >
@@ -122,7 +127,7 @@
             <div class="xl:text-xl xl:text-black xl:font-medium">
               <ul class="xl:flex xl:gap-9 xl:items-center">
                 <li class="text-balance">
-                  <a href="index.html" class="relative"
+                  <a href="index.html" aria-label="Úvod" class="relative"
                     ><span
                       data-block="h.u"
                       data-txt="span"
@@ -132,7 +137,11 @@
                   >
                 </li>
                 <li class="text-nowrap">
-                  <a href="tipynavylet.html" class="relative">
+                  <a
+                    href="tipynavylet.html"
+                    aria-label="Tipy na výlet"
+                    class="relative"
+                  >
                     <span
                       data-block="h.tnv"
                       data-txt="span"
@@ -142,7 +151,7 @@
                   >
                 </li>
                 <li>
-                  <a href="kalendar.html" class="relative"
+                  <a href="kalendar.html" aria-label="Kalendář" class="relative"
                     ><span
                       data-block="h.ka"
                       data-txt="span"
@@ -152,7 +161,10 @@
                   >
                 </li>
                 <li>
-                  <a href="fotogalerie.html" class="relative"
+                  <a
+                    href="fotogalerie.html"
+                    aria-label="Fotogalerie"
+                    class="relative"
                     ><span
                       data-block="h.f"
                       data-txt="span"
@@ -162,7 +174,7 @@
                   >
                 </li>
                 <li>
-                  <a href="kontakt.html" class="relative">
+                  <a href="kontakt.html" aria-label="Kontakt" class="relative">
                     <span
                       data-block="h.ko"
                       data-txt="span"
@@ -178,7 +190,7 @@
         <div
           class="flex flex-row items-center justify-end w-full gap-4 lg:gap-8 xl:gap-2"
         >
-          <a href="kontakt.html">
+          <a href="kontakt.html" aria-label="Kontakt">
             <button
               data-block="h.re"
               data-txt="button"
@@ -564,17 +576,21 @@
         <div
           class="flex flex-col xl:flex-row xl:gap-6 xl:pr-0 justify-center text-xl font-bold text-center pt-14 md:pt-0 md:pr-[11.5px] leading-[23px] lg:pr-[134.5px]"
         >
-          <a href="index.html" data-block="f.u" data-txt="a">Úvod</a>
+          <a href="index.html" aria-label="Úvod" data-block="f.u" data-txt="a"
+            >Úvod</a
+          >
           <a
             data-block="f.tnv"
             data-txt="a"
             class="pt-6 xl:pt-0 md:min-w-[361px] xl:min-w-max"
             href="tipynavylet.html"
+            aria-label="Tipy na výlet"
             >Tipy na výlet</a
           >
           <a
             class="pt-6 xl:pt-0"
             href="kalendar.html"
+            aria-label="Kalendář"
             data-block="f.ka"
             data-txt="a"
             >Kalendář</a
@@ -582,6 +598,7 @@
           <a
             class="pt-6 xl:pt-0"
             href="fotogalerie.html"
+            aria-label="Fotogalerie"
             data-block="f.f"
             data-txt="a"
             >Fotogalerie</a
@@ -589,6 +606,7 @@
           <a
             class="pt-6 xl:pt-0"
             href="kontakt.html"
+            aria-label="Kontakt"
             data-block="f.ko"
             data-txt="a"
             >Kontakt</a
@@ -625,6 +643,7 @@
             <a
               class="xl:flex xl:flex-col xl:items-center xl:justify-center"
               href="index.html"
+              aria-label="Úvod"
             >
               <img
                 class="xl:w-5 xl:h-4 xl:text-xs"
